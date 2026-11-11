@@ -1,0 +1,5 @@
+branch,description,n,coverage,median,p95,worst,mean_evals,cells
+A,"straddle: fit the crossing, issue it with the margin",8,1.0,1.0,1.232,1.25,2.0,clip_vitl14/inshop/inst; clip_vitl14/instre/cat; qwen3vl_emb_8b/inshop/cat; qwen3vl_emb_8b/inshop/inst; siglip2_so400m/inshop/cat; siglip2_so400m/inshop/inst; wemm_2b/inshop/cat; wemm_2b/inshop/inst
+B,both anchors under tolerance: issue the smaller measured rank,8,1.0,1.475,3.208,3.5,2.0,clip_vitl14/instre/inst; dinov3_vitl16/instre/cat; dinov3_vitl16/instre/inst; dinov3_vitl16/sop/inst; siglip2_so400m/instre/cat; siglip2_so400m/instre/inst; siglip2_so400m/sop/inst; wemm_2b/sop/inst
+C,both anchors over tolerance: ladder upward by measuring,3,1.0,1.6,1.96,2.0,3.0,clip_vitl14/inshop/cat; dinov3_vitl16/inshop/cat; dinov3_vitl16/inshop/inst
+all,deployed rule,19,1.0,1.2,2.75,3.5,2.16,

@@ -1,0 +1,167 @@
+{
+ "n": 19,
+ "fired_cells": [
+  "clip_vitl14/instre/inst",
+  "dinov3_vitl16/instre/cat",
+  "dinov3_vitl16/instre/inst",
+  "dinov3_vitl16/sop/inst",
+  "siglip2_so400m/instre/inst",
+  "siglip2_so400m/sop/inst"
+ ],
+ "base": {
+  "coverage": 1.0,
+  "median": 1.25,
+  "p95": 7.233333333333328,
+  "max": 9.333333333333334,
+  "frac_le_1_5": 0.7894736842105263,
+  "mean_points": 3.1578947368421053
+ },
+ "S1": {
+  "coverage": 0.7894736842105263,
+  "wilson_lo": 0.5666528575973392,
+  "wilson_hi": 0.9149246150840843,
+  "median": 1.1666666666666667,
+  "p95": 1.6399999999999992,
+  "max": 2.0,
+  "frac_le_1_5": 0.8947368421052632,
+  "mean_points": 3.4210526315789473,
+  "fires": 6,
+  "details": [
+   {
+    "id": "clip_vitl14/instre/inst",
+    "ratio": 0.125,
+    "meets": false,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 8,
+    "r_true": 64,
+    "n_points": 4
+   },
+   {
+    "id": "dinov3_vitl16/instre/cat",
+    "ratio": 0.3333333333333333,
+    "meets": false,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 8,
+    "r_true": 24,
+    "n_points": 4
+   },
+   {
+    "id": "dinov3_vitl16/instre/inst",
+    "ratio": 0.25,
+    "meets": false,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 8,
+    "r_true": 32,
+    "n_points": 4
+   },
+   {
+    "id": "dinov3_vitl16/sop/inst",
+    "ratio": 1.0,
+    "meets": true,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 320,
+    "r_true": 320,
+    "n_points": 4
+   },
+   {
+    "id": "siglip2_so400m/instre/inst",
+    "ratio": 0.125,
+    "meets": false,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 8,
+    "r_true": 64,
+    "n_points": 4
+   },
+   {
+    "id": "siglip2_so400m/sop/inst",
+    "ratio": 1.0,
+    "meets": true,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 192,
+    "r_true": 192,
+    "n_points": 4
+   }
+  ]
+ },
+ "S2": {
+  "coverage": 0.7894736842105263,
+  "wilson_lo": 0.5666528575973392,
+  "wilson_hi": 0.9149246150840843,
+  "median": 1.1666666666666667,
+  "p95": 1.6399999999999992,
+  "max": 2.0,
+  "frac_le_1_5": 0.8947368421052632,
+  "mean_points": 3.4210526315789473,
+  "fires": 6,
+  "details": [
+   {
+    "id": "clip_vitl14/instre/inst",
+    "ratio": 0.125,
+    "meets": false,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 8,
+    "r_true": 64,
+    "n_points": 4
+   },
+   {
+    "id": "dinov3_vitl16/instre/cat",
+    "ratio": 0.3333333333333333,
+    "meets": false,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 8,
+    "r_true": 24,
+    "n_points": 4
+   },
+   {
+    "id": "dinov3_vitl16/instre/inst",
+    "ratio": 0.25,
+    "meets": false,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 8,
+    "r_true": 32,
+    "n_points": 4
+   },
+   {
+    "id": "dinov3_vitl16/sop/inst",
+    "ratio": 1.0,
+    "meets": true,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 320,
+    "r_true": 320,
+    "n_points": 4
+   },
+   {
+    "id": "siglip2_so400m/instre/inst",
+    "ratio": 0.125,
+    "meets": false,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 8,
+    "r_true": 64,
+    "n_points": 4
+   },
+   {
+    "id": "siglip2_so400m/sop/inst",
+    "ratio": 1.0,
+    "meets": true,
+    "label": "nonparametric_crossing",
+    "has_cross": true,
+    "r_cons": 192,
+    "r_true": 192,
+    "n_points": 4
+   }
+  ]
+ },
+ "S1_pass": false,
+ "S2_pass": false
+}

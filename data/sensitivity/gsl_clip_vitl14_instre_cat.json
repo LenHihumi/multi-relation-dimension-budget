@@ -1,0 +1,90 @@
+{
+ "enc": "clip_vitl14",
+ "ds": "instre",
+ "rel": "cat",
+ "n": 8000,
+ "order": "lambda",
+ "variants": [
+  {
+   "n_groups": 21,
+   "r_star": 48,
+   "eta2_mean": 0.0185504164286304,
+   "eta2_max": 0.6248842110127933,
+   "group_size_median": 280.0,
+   "full_map10": 0.9548125396825397,
+   "variant": "real"
+  },
+  {
+   "n_groups": 4,
+   "r_star": 40,
+   "eta2_mean": 0.00277684915942621,
+   "eta2_max": 0.36925215570648734,
+   "group_size_median": 1785.5,
+   "full_map10": 0.9644203968253967,
+   "variant": "random-8"
+  },
+  {
+   "n_groups": 27,
+   "r_star": 56,
+   "eta2_mean": 0.021690968442017382,
+   "eta2_max": 0.4723735124486704,
+   "group_size_median": 145.0,
+   "full_map10": 0.8970906746031742,
+   "variant": "random-32"
+  },
+  {
+   "n_groups": 102,
+   "r_star": 64,
+   "eta2_mean": 0.06446097918967723,
+   "eta2_max": 0.6046170306803809,
+   "group_size_median": 53.0,
+   "full_map10": 0.7651075198412696,
+   "variant": "random-128"
+  },
+  {
+   "n_groups": 375,
+   "r_star": 80,
+   "eta2_mean": 0.15317284166708703,
+   "eta2_max": 0.7576786795833405,
+   "group_size_median": 17.0,
+   "full_map10": 0.42805389219576734,
+   "variant": "random-512"
+  },
+  {
+   "n_groups": 1895,
+   "r_star": 96,
+   "eta2_mean": 0.35830166081154474,
+   "eta2_max": 0.9092005199309344,
+   "group_size_median": 3.0,
+   "full_map10": 0.14340317570546735,
+   "variant": "random-2048"
+  },
+  {
+   "n_groups": 21,
+   "r_star": 48,
+   "eta2_mean": 0.016397035375601183,
+   "eta2_max": 0.5712347156432525,
+   "group_size_median": 292.0,
+   "full_map10": 0.8400952380952373,
+   "variant": "noise-05"
+  },
+  {
+   "n_groups": 21,
+   "r_star": 48,
+   "eta2_mean": 0.014574827536768364,
+   "eta2_max": 0.5030824119198385,
+   "group_size_median": 297.0,
+   "full_map10": 0.7155114285714285,
+   "variant": "noise-10"
+  },
+  {
+   "n_groups": 21,
+   "r_star": 64,
+   "eta2_mean": 0.01051295758171169,
+   "eta2_max": 0.3694015761502326,
+   "group_size_median": 318.0,
+   "full_map10": 0.47505337301587325,
+   "variant": "noise-25"
+  }
+ ]
+}

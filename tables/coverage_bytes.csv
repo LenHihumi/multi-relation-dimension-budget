@@ -1,0 +1,12 @@
+family,rule,n_cells,coverage,bytes
+energy retention,energy95,19,1.0,1792
+energy retention,energy99,19,1.0,3072
+energy retention,energy90,19,0.895,1280
+scree / knee,scree,19,1.0,2560
+participation ratio,pr,19,0.579,320
+participation ratio,pr2,19,0.579,640
+fixed fraction,ff50,19,1.0,2560
+fixed fraction,ff25,19,0.895,1280
+response law,law_e01,19,1.0,384
+response law,law,19,0.421,240
+oracle,oracle,19,1.0,256

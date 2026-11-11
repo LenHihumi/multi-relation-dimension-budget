@@ -1,0 +1,89 @@
+{
+ "enc": "clip_vitl14",
+ "ds": "inshop",
+ "rel": "inst",
+ "n": 52591,
+ "variants": [
+  {
+   "n_groups": 12995,
+   "r_star": 80,
+   "eta2_mean": 0.4260892366590066,
+   "eta2_max": 0.8986945475230824,
+   "group_size_median": 4.0,
+   "full_map10": 0.2534350066137566,
+   "variant": "real"
+  },
+  {
+   "n_groups": 9,
+   "r_star": 32,
+   "eta2_mean": 0.004752781168608372,
+   "eta2_max": 0.6973893094902052,
+   "group_size_median": 6573.0,
+   "full_map10": 0.5675909126984113,
+   "variant": "random-8"
+  },
+  {
+   "n_groups": 32,
+   "r_star": 48,
+   "eta2_mean": 0.00909757972718292,
+   "eta2_max": 0.7039563885435427,
+   "group_size_median": 1643.0,
+   "full_map10": 0.31881888888888993,
+   "variant": "random-32"
+  },
+  {
+   "n_groups": 127,
+   "r_star": 80,
+   "eta2_mean": 0.0159785358169075,
+   "eta2_max": 0.7706401120173466,
+   "group_size_median": 410.0,
+   "full_map10": 0.19774452380952345,
+   "variant": "random-128"
+  },
+  {
+   "n_groups": 505,
+   "r_star": 80,
+   "eta2_mean": 0.03471052484780512,
+   "eta2_max": 0.7871954213509222,
+   "group_size_median": 102.0,
+   "full_map10": 0.15598734126984098,
+   "variant": "random-512"
+  },
+  {
+   "n_groups": 2088,
+   "r_star": 80,
+   "eta2_mean": 0.09961876169486795,
+   "eta2_max": 0.8124461122596466,
+   "group_size_median": 25.0,
+   "full_map10": 0.124277222222222,
+   "variant": "random-2048"
+  },
+  {
+   "n_groups": 12992,
+   "r_star": 80,
+   "eta2_mean": 0.4069775396052389,
+   "eta2_max": 0.8343519761732,
+   "group_size_median": 4.0,
+   "full_map10": 0.2247198015873014,
+   "variant": "noise-05"
+  },
+  {
+   "n_groups": 12986,
+   "r_star": 80,
+   "eta2_mean": 0.38924428374361647,
+   "eta2_max": 0.7693868189693102,
+   "group_size_median": 4.0,
+   "full_map10": 0.19758942460317444,
+   "variant": "noise-10"
+  },
+  {
+   "n_groups": 12961,
+   "r_star": 80,
+   "eta2_mean": 0.34321393640341297,
+   "eta2_max": 0.6037106865032796,
+   "group_size_median": 4.0,
+   "full_map10": 0.12368292328042331,
+   "variant": "noise-25"
+  }
+ ]
+}

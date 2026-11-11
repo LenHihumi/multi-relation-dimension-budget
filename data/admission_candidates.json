@@ -1,0 +1,269 @@
+{
+ "_note": "Admission metadata for the corpus-extension candidates. Facts are from the published dataset descriptions (URL per record); counts marked verified=false must be re-derived from the annotation files once downloaded, before any embedding is extracted.",
+ "corpora": [
+  {
+   "name": "stanford_cars",
+   "domain": "consumer cars",
+   "images": 16185,
+   "verified": false,
+   "sources": [
+    "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
+    "https://arxiv.org/pdf/2603.01746"
+   ],
+   "relations": {
+    "inst": null,
+    "cat1": {
+     "name": "make",
+     "groups": 49
+    },
+    "cat": {
+     "name": "make-model-year",
+     "groups": 196
+    }
+   },
+   "images_per_group_median": 83,
+   "images_per_group_min": 48,
+   "entity_layer": false,
+   "note": "196 model-year classes nested in 49 makes; the eight images per class are different physical cars, so there is no same-entity multi-view layer. Category side only.",
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   }
+  },
+  {
+   "name": "nabirds",
+   "domain": "birds",
+   "images": 48562,
+   "verified": false,
+   "sources": [
+    "https://dl.allaboutbirds.org/nabirds",
+    "https://arxiv-vanity.com/papers/2605.06274"
+   ],
+   "relations": {
+    "inst": null,
+    "cat1": {
+     "name": "family/order",
+     "groups": 0
+    },
+    "cat": {
+     "name": "species-variant",
+     "groups": 555
+    }
+   },
+   "images_per_group_median": 0,
+   "images_per_group_min": 4,
+   "entity_layer": false,
+   "note": "555 leaf classes (404 species x age/sex variants) under an irregular order->family->species tree. Individual birds are not identified, so no same-entity layer. 555 leaves also falls short of the >1000 fine-group target.",
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://dl.allaboutbirds.org/nabirds",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   }
+  },
+  {
+   "name": "deepfashion_c2s",
+   "domain": "clothing, consumer to shop",
+   "images": 239557,
+   "verified": false,
+   "sources": [
+    "https://datadory.com/datasets/apparel-accessories-luxury-goods/deepfashion-dataset-cuhk-mmlab",
+    "https://devpress.csdn.net/v1/article/detail/78203803"
+   ],
+   "relations": {
+    "inst": {
+     "name": "item_id",
+     "groups": 33881
+    },
+    "cat": {
+     "name": "category",
+     "groups": 50
+    }
+   },
+   "images_per_group_median": 7,
+   "images_per_group_min": 2,
+   "entity_layer": true,
+   "note": "Each item_id holds one shop photo plus several consumer photos, which is the same-entity multi-view structure the paper's `inst` relation needs. Has both layers.",
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://datadory.com/datasets/apparel-accessories-luxury-goods/deepfashion-dataset-cuhk-mmlab",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   }
+  },
+  {
+   "name": "logo2kplus",
+   "domain": "logos",
+   "images": 167140,
+   "verified": false,
+   "sources": [
+    "https://arxiv.org/pdf/1911.07924",
+    "http://git-hub.com/easeyeah/Logo-2k-plus-Dataset"
+   ],
+   "relations": {
+    "inst": null,
+    "cat1": {
+     "name": "root category",
+     "groups": 10
+    },
+    "cat": {
+     "name": "logo class",
+     "groups": 2341
+    }
+   },
+   "images_per_group_median": 50,
+   "images_per_group_min": 50,
+   "entity_layer": false,
+   "note": ">=50 crawled images per logo class, 2341 classes under 10 root categories. Images of one class are different photos of the same brand, not repeated views of one physical object, so there is no separate entity layer; the class itself is the finest partition.",
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://arxiv.org/pdf/1911.07924",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   }
+  },
+  {
+   "name": "abo",
+   "domain": "household products",
+   "images": 444059.19999999995,
+   "verified": true,
+   "sources": [
+    "ABO CVPR 2022 paper, Table 2 (MVR benchmark)",
+    "https://openaccess.thecvf.com/content/CVPR2022/papers/Collins_ABO_Dataset_and_Benchmarks_for_Real-World_3D_Object_Understanding_CVPR_2022_paper.pdf",
+    "https://registry.opendata.aws/amazon-berkeley-objects"
+   ],
+   "relations": {
+    "inst": {
+     "name": "listing (item_id)",
+     "groups": 92320
+    },
+    "cat": {
+     "name": "product_type",
+     "groups": 546
+    }
+   },
+   "images_per_group_median": 5,
+   "images_per_group_min": 1,
+   "entity_layer": true,
+   "note": "Downloadable metadata covers 92,320 listings in 10 shards (the paper quotes 147,702 for the full release; shards 10+ return 404, so 92,320 is the ceiling of the public listing metadata). Median 5 images per listing, 93.3% carry >=2. Colour variants are 9 of 86,170 listable listings, so the inst relation is not contaminated by colour variants.",
+   "evidence": {
+    "claim": "A1-A4 all pass on the downloadable metadata",
+    "source": "scripts/diag/spectral_budget/sb_abo_meta.py over listings_0..9.json.gz (10 shards)",
+    "kind": "our_measurement",
+    "verified_by_us": true,
+    "measured": {
+     "n_listings": 92320,
+     "images_per_listing": {
+      "median": 5,
+      "mean": 4.81,
+      "single_share": 0.0654,
+      "ge2_share": 0.9334,
+      "p90": 7,
+      "max": 21
+     },
+     "product_types": {
+      "n_types": 546,
+      "share_with_ge2_listings": 0.8846,
+      "median_listings_per_type": 12
+     },
+     "listable": 86170,
+     "multi_colour_share": 0.0001
+    }
+   },
+   "listings": 92320
+  },
+  {
+   "name": "gldv2",
+   "domain": "landmarks",
+   "images": 4132914,
+   "verified": false,
+   "sources": [
+    "https://github.com/cvdfoundation/google-landmark"
+   ],
+   "relations": {
+    "inst": {
+     "name": "landmark_id",
+     "groups": 81313
+    },
+    "cat": null
+   },
+   "images_per_group_median": 5,
+   "images_per_group_min": 2,
+   "entity_layer": true,
+   "note": "Landmark instances hold many photos each, so the inst side is real; there is no category layer above landmark_id. Contributes inst only, cannot re-test the 3.3x contrast.",
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://github.com/cvdfoundation/google-landmark",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   }
+  },
+  {
+   "name": "met",
+   "domain": "artworks",
+   "images": 490000,
+   "verified": false,
+   "sources": [
+    "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+   ],
+   "relations": {
+    "inst": {
+     "name": "objectID",
+     "groups": 250000
+    },
+    "cat": {
+     "name": "department/artist",
+     "groups": 3000
+    }
+   },
+   "images_per_group_median": 1,
+   "images_per_group_min": 1,
+   "entity_layer": false,
+   "note": "Most objects carry a single primary photograph; additional views exist for a minority. Until the per-object image count is measured, treat this as cat only -- a corpus whose median object has one image has no inst relation.",
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   }
+  },
+  {
+   "name": "product1m",
+   "domain": "cosmetics products",
+   "images": 1182083,
+   "verified": false,
+   "sources": [
+    "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhan_Product1M_Towards_Weakly_Supervised_Instance-Level_Product_Retrieval_via_Cross-Modal_Pretraining_ICCV_2021_paper.pdf"
+   ],
+   "relations": {
+    "inst": {
+     "name": "identical-product subset",
+     "groups": 819
+    },
+    "cat": {
+     "name": "fine-grained category",
+     "groups": 458
+    }
+   },
+   "images_per_group_median": 0,
+   "images_per_group_min": 0,
+   "entity_layer": false,
+   "note": "The instance label is a product inside a multi-product photo, not repeated views of one object; the identical-product subset lists 819 products, below the >1000 fine-group target, and its per-product image count is unstated. Counted as cat only until verified.",
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhan_Product1M_Towards_Weakly_Supervised_Instance-Level_Product_Retrieval_via_Cross-Modal_Pretraining_ICCV_2021_paper.pdf",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   }
+  }
+ ],
+ "requirements": {
+  "min_queries": 1000,
+  "min_images_per_group": 2,
+  "fine_group_target": 1000,
+  "coarse_group_target": 100,
+  "_note": "fine/coarse targets are set-level: the extended corpus must contain at least one cell with >1000 groups and one with <100 groups, otherwise the granularity contrast the paper rests on cannot be re-tested."
+ }
+}

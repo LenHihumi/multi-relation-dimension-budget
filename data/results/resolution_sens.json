@@ -1,0 +1,182 @@
+{
+ "eps": 0.05,
+ "n_cells": 14,
+ "calibration_ratios": {
+  "dinov3_vitl16/inshop/cat": 1.5972048465350224,
+  "clip_vitl14/instre/inst": 1.216122416451691,
+  "dinov3_vitl16/instre/inst": 1.1885668265298968
+ },
+ "ratio_spread": 1.3438073576377465,
+ "scales": [
+  {
+   "name": "no rescale (as published)",
+   "scale": 1.0,
+   "coverage": 0.7863407993274989,
+   "expected_flips": 2.9912288094150155
+  },
+  {
+   "name": "min measured ratio",
+   "scale": 1.1885668265298968,
+   "coverage": 0.7642888841452374,
+   "expected_flips": 3.299955621966676
+  },
+  {
+   "name": "mean measured ratio",
+   "scale": 1.3339646965055367,
+   "coverage": 0.7500368922052214,
+   "expected_flips": 3.4994835091269003
+  },
+  {
+   "name": "max measured ratio",
+   "scale": 1.5972048465350224,
+   "coverage": 0.7284936921135654,
+   "expected_flips": 3.8010883104100843
+  }
+ ],
+ "per_cell": [
+  {
+   "id": "clip_vitl14/instre/cat",
+   "p_flip": 0.11370127775311056,
+   "p_flip_at_max_ratio": 0.2249015640029709,
+   "shift": 0.11120028624986034,
+   "margin_over_se": 1.2070768339690883,
+   "sensitivity": 0.2324095463309442
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "p_flip": 0.18710116715290193,
+   "p_flip_at_max_ratio": 0.28898058729649473,
+   "shift": 0.1018794201435928,
+   "margin_over_se": 0.8886293085635184,
+   "sensitivity": 0.23886788474282555
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "p_flip": 0.22005849250145815,
+   "p_flip_at_max_ratio": 0.31442657332075064,
+   "shift": 0.09436808081929249,
+   "margin_over_se": 0.7719956819078924,
+   "sensitivity": 0.22861783277978862
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "p_flip": 0.22248760138266366,
+   "p_flip_at_max_ratio": 0.3162460242864192,
+   "shift": 0.09375842290375552,
+   "margin_over_se": 0.7638188487192951,
+   "sensitivity": 0.22762112220526803
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "p_flip": 0.03533479339246576,
+   "p_flip_at_max_ratio": 0.128875276878456,
+   "shift": 0.09354048348599026,
+   "margin_over_se": 1.8075948087526128,
+   "sensitivity": 0.14076817327802543
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "p_flip": 0.30343019679473643,
+   "p_flip_at_max_ratio": 0.3736646350404347,
+   "shift": 0.07023443824569825,
+   "margin_over_se": 0.5145601848486796,
+   "sensitivity": 0.17982567343024689
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "p_flip": 0.3355813492578807,
+   "p_flip_at_max_ratio": 0.39519282087599117,
+   "shift": 0.05961147161811048,
+   "margin_over_se": 0.4245528119648444,
+   "sensitivity": 0.15477544577442234
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "p_flip": 0.3426847336467096,
+   "p_flip_at_max_ratio": 0.3998791171829441,
+   "shift": 0.05719438353623452,
+   "margin_over_se": 0.40514699064593945,
+   "sensitivity": 0.1488947031579185
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "p_flip": 0.35071062915319495,
+   "p_flip_at_max_ratio": 0.4051473006924379,
+   "shift": 0.05443667153924292,
+   "margin_over_se": 0.3834026236465559,
+   "sensitivity": 0.14211667207551845
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "p_flip": 0.41063021940881395,
+   "p_flip_at_max_ratio": 0.44375735386894904,
+   "shift": 0.0331271344601351,
+   "margin_over_se": 0.22592411860282105,
+   "sensitivity": 0.08785957467627671
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "p_flip": 0.0005617235302543544,
+   "p_flip_at_max_ratio": 0.020695832192710928,
+   "shift": 0.020134108662456573,
+   "margin_over_se": 3.257635253932144,
+   "sensitivity": 0.006447707052572609
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "p_flip": 0.46887135590934653,
+   "p_flip_at_max_ratio": 0.4804985043531047,
+   "shift": 0.011627148443758173,
+   "margin_over_se": 0.07810728561613335,
+   "sensitivity": 0.031065392896427457
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "p_flip": 7.526953147124482e-05,
+   "p_flip_at_max_ratio": 0.00882196144634162,
+   "shift": 0.008746691914870375,
+   "margin_over_se": 3.790178503335214,
+   "sensitivity": 0.0011485534932635672
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "p_flip": 7.882583474838611e-15,
+   "p_flip_at_max_ratio": 7.589720786849163e-07,
+   "shift": 7.589720708023329e-07,
+   "margin_over_se": 7.680732497700067,
+   "sensitivity": 4.742463588145236e-13
+  }
+ ],
+ "p_flip_check": [
+  {
+   "id": "clip_vitl14__instre__inst",
+   "delta": 0.18710116715290193,
+   "bootstrap": 0.206,
+   "err": -0.018898832847098063,
+   "at_min_ratio": 0.22733632871988996,
+   "at_max_ratio": 0.28898058729649473,
+   "margin_over_se": 0.8886293085635184,
+   "sensitivity": 0.23886788474282555
+  },
+  {
+   "id": "dinov3_vitl16__inshop__cat",
+   "delta": 0.46887135590934653,
+   "bootstrap": 0.472,
+   "err": -0.003128644090653443,
+   "at_min_ratio": 0.4738021584586178,
+   "at_max_ratio": 0.4804985043531047,
+   "margin_over_se": 0.07810728561613335,
+   "sensitivity": 0.031065392896427457
+  },
+  {
+   "id": "dinov3_vitl16__instre__inst",
+   "delta": 7.526953147124482e-05,
+   "bootstrap": 0.0,
+   "err": 7.526953147124482e-05,
+   "at_min_ratio": 0.000714164173565679,
+   "at_max_ratio": 0.00882196144634162,
+   "margin_over_se": 3.790178503335214,
+   "sensitivity": 0.0011485534932635672
+  }
+ ]
+}

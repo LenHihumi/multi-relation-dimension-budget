@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+envs/
+
+# Run output: the measurement scripts write here when SB_OUT is unset
+outputs/
+
+# Release artefacts are built, not committed
+*.zip
+SHA256SUMS.txt
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*~
+*.bak_*
+*.swp

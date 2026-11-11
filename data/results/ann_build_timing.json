@@ -1,0 +1,82 @@
+{
+ "encoder": "clip_vitl14",
+ "dataset": "inshop",
+ "n_gallery": 52591,
+ "M": 32,
+ "efConstruction": 200,
+ "faiss": "1.15.1",
+ "ranks": {
+  "96": {
+   "24": {
+    "ascending": [
+     0.52
+    ],
+    "descending": [
+     0.5
+    ]
+   },
+   "1": {
+    "ascending": [
+     10.17
+    ],
+    "descending": [
+     10.05
+    ]
+   }
+  },
+  "192": {
+   "24": {
+    "ascending": [
+     0.73
+    ],
+    "descending": [
+     0.75
+    ]
+   },
+   "1": {
+    "ascending": [
+     13.79
+    ],
+    "descending": [
+     14.02
+    ]
+   }
+  },
+  "384": {
+   "24": {
+    "ascending": [
+     1.21
+    ],
+    "descending": [
+     1.3
+    ]
+   },
+   "1": {
+    "ascending": [
+     21.38
+    ],
+    "descending": [
+     20.96
+    ]
+   }
+  },
+  "768": {
+   "24": {
+    "ascending": [
+     3.24
+    ],
+    "descending": [
+     3.14
+    ]
+   },
+   "1": {
+    "ascending": [
+     36.31
+    ],
+    "descending": [
+     35.31
+    ]
+   }
+  }
+ }
+}

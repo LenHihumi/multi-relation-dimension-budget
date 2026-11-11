@@ -1,0 +1,95 @@
+{
+ "bins": [
+  {
+   "bin": [
+    0.01,
+    0.02
+   ],
+   "n": 11,
+   "slope": null
+  },
+  {
+   "bin": [
+    0.02,
+    0.04
+   ],
+   "n": 14,
+   "slope": -2.857651284919846,
+   "r2": 0.8386597739214281,
+   "logit_gap_hi_minus_lo": -1.6924084610704022,
+   "corr_rho_deff_residual": -0.04130914425573098,
+   "rho_iqr": 0.013706610607874814,
+   "rho_median": 0.02776136695009035,
+   "frac_negative_slope": null
+  },
+  {
+   "bin": [
+    0.04,
+    0.08
+   ],
+   "n": 20,
+   "slope": -2.371153088411827,
+   "r2": 0.9036796919988382,
+   "logit_gap_hi_minus_lo": -1.2395758015001184,
+   "corr_rho_deff_residual": 0.21824050641347895,
+   "rho_iqr": 0.012350262294245185,
+   "rho_median": 0.057418241875338394,
+   "frac_negative_slope": null
+  },
+  {
+   "bin": [
+    0.08,
+    0.16
+   ],
+   "n": 32,
+   "slope": -2.212423306967843,
+   "r2": 0.6532935007935757,
+   "logit_gap_hi_minus_lo": -1.7832212787946042,
+   "corr_rho_deff_residual": -0.06676311968596362,
+   "rho_iqr": 0.03828931533223856,
+   "rho_median": 0.11677052969439988,
+   "frac_negative_slope": null
+  },
+  {
+   "bin": [
+    0.16,
+    0.32
+   ],
+   "n": 46,
+   "slope": -2.241447334810361,
+   "r2": 0.7480242372439112,
+   "logit_gap_hi_minus_lo": -2.7162641657631434,
+   "corr_rho_deff_residual": -0.02491207617049149,
+   "rho_iqr": 0.08575416801155955,
+   "rho_median": 0.2228313797182606,
+   "frac_negative_slope": null
+  },
+  {
+   "bin": [
+    0.32,
+    0.64
+   ],
+   "n": 58,
+   "slope": -1.8881088357099924,
+   "r2": 0.7950438059047793,
+   "logit_gap_hi_minus_lo": -2.1654158130178804,
+   "corr_rho_deff_residual": -0.1490399365085622,
+   "rho_iqr": 0.14444070516027996,
+   "rho_median": 0.4464771154433541,
+   "frac_negative_slope": null
+  }
+ ],
+ "pooled_slope_reference": -2.282,
+ "accept_threshold": 1.141,
+ "n_points": 239,
+ "summary": {
+  "n_bins_fitted": 5,
+  "median_slope": -2.241447334810361,
+  "frac_negative": 1.0,
+  "median_abs_slope": 2.241447334810361,
+  "pass": true,
+  "median_r2": 0.7950438059047793,
+  "median_rho_iqr": 0.03828931533223856,
+  "median_abs_corr_residual": 0.06676311968596362
+ }
+}

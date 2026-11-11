@@ -1,0 +1,12 @@
+encoder,corpus,relations,r90,budget_item,budget_cat,bytes_var90,bytes_unified,bytes_pair,ratio_var90_over_unified,var90_meets_tolerance
+dinov3_vitl16,instre,cat/inst,448,32,24,2048,384,736,5.333,1
+siglip2_so400m,instre,cat/inst,320,56,40,1536,480,896,3.2,1
+clip_vitl14,instre,cat/inst,320,64,48,1536,512,960,3.0,1
+wemm_2b,inshop,cat/inst,224,96,24,1152,640,992,1.8,1
+siglip2_so400m,sop,inst,320,160,,1536,896,896,1.714,1
+wemm_2b,sop,inst,320,160,,1536,896,896,1.714,1
+dinov3_vitl16,sop,inst,448,258,,2048,1288,1288,1.59,1
+qwen3vl_emb_8b,inshop,cat/inst,192,112,24,1024,704,1056,1.455,1
+clip_vitl14,inshop,cat/inst,192,160,32,1024,896,1280,1.143,1
+siglip2_so400m,inshop,cat/inst,192,192,32,1024,1024,1408,1.0,1
+dinov3_vitl16,inshop,cat/inst,192,320,32,1024,1536,1920,0.667,0

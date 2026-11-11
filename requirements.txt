@@ -1,0 +1,15 @@
+# Dependencies, split by which path needs them.
+#
+# 1) Verification path -- `bash repro.sh` (scripts/make_tables.py + scripts/verify.py).
+#    This is the whole requirement for checking every number in the paper.
+#    `make_tables.py` and `verify.py` import csv, json, os, glob, statistics, numpy.
+numpy==2.2.6
+
+# 2) Not required for verification. Only scripts/sb_ann.py (Table 7, HNSW) needs
+#    faiss, and it also needs the embedding caches, which this deposit does not
+#    contain. Uncomment if you have them.
+# faiss-cpu==1.15.1
+
+# 3) Not required for verification. Only scripts/sb_wrapup.py --mode figures
+#    needs matplotlib.
+# matplotlib>=3.7

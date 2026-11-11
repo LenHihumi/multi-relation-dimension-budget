@@ -1,0 +1,46 @@
+{
+  "title": "Artifact for: Budgeting Dimensions in Multi-Relation Vector Indexes: Measure, Configure, Don't Predict",
+  "upload_type": "software",
+  "description": "Measurement grids, fitted parameters, deployment measurements and analysis scripts for a study of dimension budgets in multi-relation vector indexes: given one PCA basis and several relevance relations, how many dimensions does each relation need, and when is a second graph worth its bytes. Contains 19 cells x 23-31 ranks of mAP@10 (486 rows), 38 cells x 18-31 ranks of recall@10 (1,126 rows), the eigenvalues and eta^2 per (encoder, corpus), every aggregate quoted in the paper, a sensitivity sweep over all 688 admissible two-point placements (253 rank pairs + 435 rho-target pairs, 13,072 evaluations), HNSW deployment measurements on three corpora (In-shop, INSTRE, Amazon reviews) including single-thread p50 latency and retention, a three-relation deployment, the cross-cell byte margin over the 90%-variance rule on 11 encoder-corpus pairs, a projection trained on the relation against the PCA prefix, a synthetic control that reproduces the central phenomenon without any third-party data, and 105 Python scripts plus 12 shell drivers. `bash repro.sh` regenerates the eleven tables that are a function of the released JSON, and a run leaves the working tree unchanged -- that is the claim the deposit makes. It needs only Python and numpy. The scripts that re-measure from raw corpora (sb_*.py) additionally need the corpora and embedding caches, which are not redistributed; README section 4 gives the order to run them in.",
+  "creators": [
+    {
+      "name": "FILL: Family, Given",
+      "orcid": "FILL: 0000-0000-0000-0000",
+      "affiliation": "FILL"
+    },
+    {
+      "name": "FILL: Family, Given",
+      "orcid": "FILL: 0000-0000-0000-0000",
+      "affiliation": "FILL"
+    },
+    {
+      "name": "FILL: Family, Given",
+      "orcid": "FILL: 0000-0000-0000-0000",
+      "affiliation": "FILL"
+    },
+    {
+      "name": "FILL: Family, Given",
+      "orcid": "FILL: 0000-0000-0000-0000",
+      "affiliation": "FILL"
+    }
+  ],
+  "license": "cc-by-nc-4.0",
+  "keywords": [
+    "vector search",
+    "multi-relation index",
+    "index configuration",
+    "embedding compression",
+    "dimensionality reduction",
+    "principal component analysis",
+    "empirical study",
+    "reproducibility"
+  ],
+  "notes": "Code (scripts/) is CC BY 4.0; measured data, tables and figures are CC BY-NC 4.0 because the DeepFashion release agreement restricts derived data to non-commercial use. Data files contain derived measurements only (curves, eigenvalues, fitted parameters). No images and no embeddings are redistributed; see LICENSE_NOTE.md.",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "FILL: DOI of the paper if available",
+      "scheme": "doi"
+    }
+  ]
+}

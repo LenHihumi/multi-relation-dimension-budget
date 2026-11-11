@@ -1,0 +1,89 @@
+{
+ "enc": "clip_vitl14",
+ "ds": "instre",
+ "rel": "inst",
+ "n": 8000,
+ "variants": [
+  {
+   "n_groups": 200,
+   "r_star": 64,
+   "eta2_mean": 0.1713261339651895,
+   "eta2_max": 0.9228037691817623,
+   "group_size_median": 40.0,
+   "full_map10": 0.9408184523809521,
+   "variant": "real"
+  },
+  {
+   "n_groups": 8,
+   "r_star": 56,
+   "eta2_mean": 0.00665052427044044,
+   "eta2_max": 0.4254995664922512,
+   "group_size_median": 1000.0,
+   "full_map10": 0.9522300793650788,
+   "variant": "random-8"
+  },
+  {
+   "n_groups": 32,
+   "r_star": 56,
+   "eta2_mean": 0.02674536411655905,
+   "eta2_max": 0.4897210932006879,
+   "group_size_median": 250.0,
+   "full_map10": 0.8841192460317453,
+   "variant": "random-32"
+  },
+  {
+   "n_groups": 130,
+   "r_star": 64,
+   "eta2_mean": 0.09140083802434652,
+   "eta2_max": 0.6861996967316731,
+   "group_size_median": 62.0,
+   "full_map10": 0.6801239285714274,
+   "variant": "random-128"
+  },
+  {
+   "n_groups": 534,
+   "r_star": 80,
+   "eta2_mean": 0.20030055047522463,
+   "eta2_max": 0.8622905229386854,
+   "group_size_median": 15.0,
+   "full_map10": 0.2265743650793649,
+   "variant": "random-512"
+  },
+  {
+   "n_groups": 2667,
+   "r_star": 96,
+   "eta2_mean": 0.4533980326268024,
+   "eta2_max": 0.9385511484928488,
+   "group_size_median": 3.0,
+   "full_map10": 0.14759404761904737,
+   "variant": "random-2048"
+  },
+  {
+   "n_groups": 200,
+   "r_star": 56,
+   "eta2_mean": 0.15710042846023853,
+   "eta2_max": 0.844483888915992,
+   "group_size_median": 40.0,
+   "full_map10": 0.8222058333333329,
+   "variant": "noise-05"
+  },
+  {
+   "n_groups": 200,
+   "r_star": 56,
+   "eta2_mean": 0.14336026437764168,
+   "eta2_max": 0.7476005990837358,
+   "group_size_median": 40.0,
+   "full_map10": 0.6988295238095239,
+   "variant": "noise-10"
+  },
+  {
+   "n_groups": 200,
+   "r_star": 80,
+   "eta2_mean": 0.10723608964402061,
+   "eta2_max": 0.5294758009781845,
+   "group_size_median": 40.0,
+   "full_map10": 0.4531179761904759,
+   "variant": "noise-25"
+  }
+ ]
+}

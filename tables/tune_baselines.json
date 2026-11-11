@@ -1,0 +1,553 @@
+{
+ "target": 0.95,
+ "cover_target": 0.95,
+ "budget": {
+  "energy": 16,
+  "pr": 11,
+  "scree": 20,
+  "ff": 8
+ },
+ "folds": {
+  "inshop": {
+   "trained_on": [
+    "instre",
+    "sop"
+   ],
+   "held_out": "inshop",
+   "families": {
+    "energy": {
+     "cheap": {
+      "param": 0.8,
+      "train": {
+       "n": 9,
+       "coverage": 1.0,
+       "med_bytes": 768.0,
+       "med_keep": 1.0
+      },
+      "test": {
+       "n": 10,
+       "coverage": 0.5,
+       "med_bytes": 320.0,
+       "med_keep": 0.9599137205727845
+      }
+     },
+     "safe": {
+      "param": 0.8,
+      "train": {
+       "n": 9,
+       "coverage": 1.0,
+       "med_bytes": 768.0,
+       "med_keep": 1.0
+      },
+      "test": {
+       "n": 10,
+       "coverage": 0.5,
+       "med_bytes": 320.0,
+       "med_keep": 0.9599137205727845
+      }
+     }
+    },
+    "pr": {
+     "cheap": {
+      "param": 2.5,
+      "train": {
+       "n": 9,
+       "coverage": 1.0,
+       "med_bytes": 768.0,
+       "med_keep": 1.0
+      },
+      "test": {
+       "n": 10,
+       "coverage": 0.7,
+       "med_bytes": 512.0,
+       "med_keep": 0.9812323277998354
+      }
+     },
+     "safe": {
+      "param": 2.5,
+      "train": {
+       "n": 9,
+       "coverage": 1.0,
+       "med_bytes": 768.0,
+       "med_keep": 1.0
+      },
+      "test": {
+       "n": 10,
+       "coverage": 0.7,
+       "med_bytes": 512.0,
+       "med_keep": 0.9812323277998354
+      }
+     }
+    },
+    "scree": {
+     "cheap": {
+      "param": [
+       3,
+       0.5
+      ],
+      "train": {
+       "n": 9,
+       "coverage": 1.0,
+       "med_bytes": 896.0,
+       "med_keep": 1.0
+      },
+      "test": {
+       "n": 10,
+       "coverage": 1.0,
+       "med_bytes": 1280.0,
+       "med_keep": 0.9969738257653338
+      }
+     },
+     "safe": {
+      "param": [
+       3,
+       0.5
+      ],
+      "train": {
+       "n": 9,
+       "coverage": 1.0,
+       "med_bytes": 896.0,
+       "med_keep": 1.0
+      },
+      "test": {
+       "n": 10,
+       "coverage": 1.0,
+       "med_bytes": 1280.0,
+       "med_keep": 0.9969738257653338
+      }
+     }
+    },
+    "ff": {
+     "cheap": {
+      "param": 0.25,
+      "train": {
+       "n": 9,
+       "coverage": 1.0,
+       "med_bytes": 1032.0,
+       "med_keep": 1.0
+      },
+      "test": {
+       "n": 10,
+       "coverage": 0.9,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9954854629926803
+      }
+     },
+     "safe": {
+      "param": 0.25,
+      "train": {
+       "n": 9,
+       "coverage": 1.0,
+       "med_bytes": 1032.0,
+       "med_keep": 1.0
+      },
+      "test": {
+       "n": 10,
+       "coverage": 0.9,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9954854629926803
+      }
+     }
+    },
+    "law": {
+     "cheap": {
+      "param": "transferred",
+      "test": {
+       "n": 10,
+       "coverage": 0.9,
+       "med_bytes": 352.0,
+       "med_keep": 0.9636212401852193
+      }
+     },
+     "safe": {
+      "param": "transferred",
+      "test": {
+       "n": 10,
+       "coverage": 0.9,
+       "med_bytes": 352.0,
+       "med_keep": 0.9636212401852193
+      }
+     }
+    }
+   },
+   "cheapest_full_coverage": {
+    "family": "scree",
+    "median_bytes": 1280.0
+   }
+  },
+  "instre": {
+   "trained_on": [
+    "inshop",
+    "sop"
+   ],
+   "held_out": "instre",
+   "families": {
+    "energy": {
+     "cheap": {
+      "param": 0.943,
+      "train": {
+       "n": 13,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9966100439027101
+      },
+      "test": {
+       "n": 6,
+       "coverage": 1.0,
+       "med_bytes": 1792.0,
+       "med_keep": 1.0010608445244986
+      }
+     },
+     "safe": {
+      "param": 0.943,
+      "train": {
+       "n": 13,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9966100439027101
+      },
+      "test": {
+       "n": 6,
+       "coverage": 1.0,
+       "med_bytes": 1792.0,
+       "med_keep": 1.0010608445244986
+      }
+     }
+    },
+    "pr": {
+     "cheap": {
+      "param": 8.0,
+      "train": {
+       "n": 13,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9989486134840321
+      },
+      "test": {
+       "n": 6,
+       "coverage": 1.0,
+       "med_bytes": 2560.0,
+       "med_keep": 1.0
+      }
+     },
+     "safe": {
+      "param": 8.0,
+      "train": {
+       "n": 13,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9989486134840321
+      },
+      "test": {
+       "n": 6,
+       "coverage": 1.0,
+       "med_bytes": 2560.0,
+       "med_keep": 1.0
+      }
+     }
+    },
+    "scree": {
+     "cheap": {
+      "param": [
+       3,
+       0.5
+      ],
+      "train": {
+       "n": 13,
+       "coverage": 1.0,
+       "med_bytes": 1280.0,
+       "med_keep": 0.9966531864454051
+      },
+      "test": {
+       "n": 6,
+       "coverage": 1.0,
+       "med_bytes": 896.0,
+       "med_keep": 1.0014701354926345
+      }
+     },
+     "safe": {
+      "param": [
+       3,
+       0.5
+      ],
+      "train": {
+       "n": 13,
+       "coverage": 1.0,
+       "med_bytes": 1280.0,
+       "med_keep": 0.9966531864454051
+      },
+      "test": {
+       "n": 6,
+       "coverage": 1.0,
+       "med_bytes": 896.0,
+       "med_keep": 1.0014701354926345
+      }
+     }
+    },
+    "ff": {
+     "cheap": {
+      "param": 0.3,
+      "train": {
+       "n": 13,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9966531864454051
+      },
+      "test": {
+       "n": 6,
+       "coverage": 1.0,
+       "med_bytes": 1280.0,
+       "med_keep": 1.0012891567051796
+      }
+     },
+     "safe": {
+      "param": 0.3,
+      "train": {
+       "n": 13,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9966531864454051
+      },
+      "test": {
+       "n": 6,
+       "coverage": 1.0,
+       "med_bytes": 1280.0,
+       "med_keep": 1.0012891567051796
+      }
+     }
+    },
+    "law": {
+     "cheap": {
+      "param": "transferred",
+      "test": {
+       "n": 6,
+       "coverage": 0.3333333333333333,
+       "med_bytes": 128.0,
+       "med_keep": 0.9035728151049899
+      }
+     },
+     "safe": {
+      "param": "transferred",
+      "test": {
+       "n": 6,
+       "coverage": 0.3333333333333333,
+       "med_bytes": 128.0,
+       "med_keep": 0.9035728151049899
+      }
+     }
+    }
+   },
+   "cheapest_full_coverage": {
+    "family": "scree",
+    "median_bytes": 896.0
+   }
+  },
+  "sop": {
+   "trained_on": [
+    "inshop",
+    "instre"
+   ],
+   "held_out": "sop",
+   "families": {
+    "energy": {
+     "cheap": {
+      "param": 0.943,
+      "train": {
+       "n": 16,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9987469458497866
+      },
+      "test": {
+       "n": 3,
+       "coverage": 1.0,
+       "med_bytes": 2048.0,
+       "med_keep": 0.9966100439027101
+      }
+     },
+     "safe": {
+      "param": 0.943,
+      "train": {
+       "n": 16,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9987469458497866
+      },
+      "test": {
+       "n": 3,
+       "coverage": 1.0,
+       "med_bytes": 2048.0,
+       "med_keep": 0.9966100439027101
+      }
+     }
+    },
+    "pr": {
+     "cheap": {
+      "param": 8.0,
+      "train": {
+       "n": 16,
+       "coverage": 1.0,
+       "med_bytes": 1792.0,
+       "med_keep": 0.9996969329615711
+      },
+      "test": {
+       "n": 3,
+       "coverage": 1.0,
+       "med_bytes": 2560.0,
+       "med_keep": 1.0
+      }
+     },
+     "safe": {
+      "param": 8.0,
+      "train": {
+       "n": 16,
+       "coverage": 1.0,
+       "med_bytes": 1792.0,
+       "med_keep": 0.9996969329615711
+      },
+      "test": {
+       "n": 3,
+       "coverage": 1.0,
+       "med_bytes": 2560.0,
+       "med_keep": 1.0
+      }
+     }
+    },
+    "scree": {
+     "cheap": {
+      "param": [
+       3,
+       0.5
+      ],
+      "train": {
+       "n": 16,
+       "coverage": 1.0,
+       "med_bytes": 1156.0,
+       "med_keep": 0.9988006865727113
+      },
+      "test": {
+       "n": 3,
+       "coverage": 1.0,
+       "med_bytes": 1280.0,
+       "med_keep": 0.9825692307692306
+      }
+     },
+     "safe": {
+      "param": [
+       3,
+       0.5
+      ],
+      "train": {
+       "n": 16,
+       "coverage": 1.0,
+       "med_bytes": 1156.0,
+       "med_keep": 0.9988006865727113
+      },
+      "test": {
+       "n": 3,
+       "coverage": 1.0,
+       "med_bytes": 1280.0,
+       "med_keep": 0.9825692307692306
+      }
+     }
+    },
+    "ff": {
+     "cheap": {
+      "param": 0.3,
+      "train": {
+       "n": 16,
+       "coverage": 1.0,
+       "med_bytes": 1408.0,
+       "med_keep": 0.9989219133880829
+      },
+      "test": {
+       "n": 3,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9969230769230769
+      }
+     },
+     "safe": {
+      "param": 0.3,
+      "train": {
+       "n": 16,
+       "coverage": 1.0,
+       "med_bytes": 1408.0,
+       "med_keep": 0.9989219133880829
+      },
+      "test": {
+       "n": 3,
+       "coverage": 1.0,
+       "med_bytes": 1536.0,
+       "med_keep": 0.9969230769230769
+      }
+     }
+    },
+    "law": {
+     "cheap": {
+      "param": "transferred",
+      "test": {
+       "n": 3,
+       "coverage": 0.0,
+       "med_bytes": 448.0,
+       "med_keep": 0.9221977289146582
+      }
+     },
+     "safe": {
+      "param": "transferred",
+      "test": {
+       "n": 3,
+       "coverage": 0.0,
+       "med_bytes": 448.0,
+       "med_keep": 0.9221977289146582
+      }
+     }
+    }
+   },
+   "cheapest_full_coverage": {
+    "family": "scree",
+    "median_bytes": 1280.0
+   }
+  }
+ },
+ "default": {
+  "energy": {
+   "n": 19,
+   "coverage": 1.0,
+   "med_bytes": 1792.0,
+   "med_keep": 0.9987877318462844
+  },
+  "pr": {
+   "n": 19,
+   "coverage": 0.5789473684210527,
+   "med_bytes": 256.0,
+   "med_keep": 0.9726739536123701
+  },
+  "scree": {
+   "n": 19,
+   "coverage": 1.0,
+   "med_bytes": 2560.0,
+   "med_keep": 1.0
+  },
+  "ff": {
+   "n": 19,
+   "coverage": 0.9473684210526315,
+   "med_bytes": 1280.0,
+   "med_keep": 0.9962243797195253
+  }
+ },
+ "arms": {
+  "free_2pt": {
+   "n": 19,
+   "coverage": 1.0,
+   "med_bytes": 640.0,
+   "med_keep": 0.0
+  },
+  "spec_lodo_dataset": {
+   "n": 19,
+   "coverage": 0.631578947368421,
+   "med_bytes": 380.0,
+   "med_keep": 0.0
+  }
+ }
+}

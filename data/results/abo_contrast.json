@@ -1,0 +1,361 @@
+{
+ "eps": 0.05,
+ "bytes_per_dim": 4,
+ "encoders": [
+  "clip_vitl14",
+  "dinov3_vitl16",
+  "qwen3vl_emb_8b",
+  "siglip2_so400m",
+  "wemm_2b"
+ ],
+ "corpora": [
+  "abo",
+  "inshop"
+ ],
+ "n_cells": 10,
+ "rows": [
+  {
+   "id": "clip_vitl14/abo",
+   "encoder": "clip_vitl14",
+   "corpus": "abo",
+   "cat": {
+    "r_star": 48,
+    "bytes": 192,
+    "full_map10": 0.7461494207382202,
+    "rho0": 0.6285675590324951,
+    "s": 1.8319625,
+    "r2": 0.9978668879338247,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 192,
+    "bytes": 768,
+    "full_map10": 0.2144687920808792,
+    "rho0": 0.4227507446871537,
+    "s": 2.8179791812499992,
+    "r2": 0.9721993941008203,
+    "n_query": 1000
+   },
+   "ratio": 4.0,
+   "n_gallery": 25399,
+   "dim": 768
+  },
+  {
+   "id": "clip_vitl14/inshop",
+   "encoder": "clip_vitl14",
+   "corpus": "inshop",
+   "cat": {
+    "r_star": 48,
+    "bytes": 192,
+    "full_map10": 0.6781615614891052,
+    "rho0": 0.357436129613086,
+    "s": 1.1767140749999998,
+    "r2": 0.9901219112078656,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 160,
+    "bytes": 640,
+    "full_map10": 0.28280109167099,
+    "rho0": 0.31149478627812865,
+    "s": 2.9954999999999994,
+    "r2": 0.9869103772944464,
+    "n_query": 1000
+   },
+   "ratio": 3.3333333333333335,
+   "n_gallery": 52591,
+   "dim": 768
+  },
+  {
+   "id": "dinov3_vitl16/abo",
+   "encoder": "dinov3_vitl16",
+   "corpus": "abo",
+   "cat": {
+    "r_star": 32,
+    "bytes": 128,
+    "full_map10": 0.7690898180007935,
+    "rho0": 0.7498942093324558,
+    "s": 2.592205849999999,
+    "r2": 0.9843187819502544,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 384,
+    "bytes": 1536,
+    "full_map10": 0.2151111215353012,
+    "rho0": 0.5462724218230349,
+    "s": 2.1430741845624994,
+    "r2": 0.9604516864015362,
+    "n_query": 1000
+   },
+   "ratio": 12.0,
+   "n_gallery": 25399,
+   "dim": 1024
+  },
+  {
+   "id": "dinov3_vitl16/inshop",
+   "encoder": "dinov3_vitl16",
+   "corpus": "inshop",
+   "cat": {
+    "r_star": 40,
+    "bytes": 160,
+    "full_map10": 0.6487215757369995,
+    "rho0": 0.7784416700297965,
+    "s": 0.85,
+    "r2": 0.9925936320942425,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 320,
+    "bytes": 1280,
+    "full_map10": 0.1250452995300293,
+    "rho0": 0.2335881364672196,
+    "s": 1.92560725,
+    "r2": 0.9879151490584561,
+    "n_query": 1000
+   },
+   "ratio": 8.0,
+   "n_gallery": 52591,
+   "dim": 1024
+  },
+  {
+   "id": "qwen3vl_emb_8b/abo",
+   "encoder": "qwen3vl_emb_8b",
+   "corpus": "abo",
+   "cat": {
+    "r_star": 48,
+    "bytes": 192,
+    "full_map10": 0.6461760401725769,
+    "rho0": 0.6716898143059428,
+    "s": 2.0905641679124995,
+    "r2": 0.9889921871807956,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 640,
+    "bytes": 2560,
+    "full_map10": 0.13135595619678497,
+    "rho0": 0.41800665902358214,
+    "s": 2.3309982499999995,
+    "r2": 0.9460682935603338,
+    "n_query": 1000
+   },
+   "ratio": 13.333333333333334,
+   "n_gallery": 25399,
+   "dim": 4096
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop",
+   "encoder": "qwen3vl_emb_8b",
+   "corpus": "inshop",
+   "cat": {
+    "r_star": 32,
+    "bytes": 128,
+    "full_map10": 0.6894814372062683,
+    "rho0": 0.7648785402446366,
+    "s": 1.0714063447992184,
+    "r2": 0.96421682290657,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 224,
+    "bytes": 896,
+    "full_map10": 0.38465380668640137,
+    "rho0": 0.33496543915782795,
+    "s": 1.7999999999999998,
+    "r2": 0.9981434662407409,
+    "n_query": 1000
+   },
+   "ratio": 7.0,
+   "n_gallery": 52591,
+   "dim": 4096
+  },
+  {
+   "id": "siglip2_so400m/abo",
+   "encoder": "siglip2_so400m",
+   "corpus": "abo",
+   "cat": {
+    "r_star": 80,
+    "bytes": 320,
+    "full_map10": 0.8166778683662415,
+    "rho0": 0.5971512988878335,
+    "s": 1.85,
+    "r2": 0.9979072681649555,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 258,
+    "bytes": 1032,
+    "full_map10": 0.3325553238391876,
+    "rho0": 0.4296349763451686,
+    "s": 3.1358462518687493,
+    "r2": 0.9713694576874258,
+    "n_query": 1000
+   },
+   "ratio": 3.225,
+   "n_gallery": 25399,
+   "dim": 1152
+  },
+  {
+   "id": "siglip2_so400m/inshop",
+   "encoder": "siglip2_so400m",
+   "corpus": "inshop",
+   "cat": {
+    "r_star": 40,
+    "bytes": 160,
+    "full_map10": 0.7792664766311646,
+    "rho0": 0.6775336464351833,
+    "s": 1.09835,
+    "r2": 0.9862472145695639,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 160,
+    "bytes": 640,
+    "full_map10": 0.44446203112602234,
+    "rho0": 0.3282661303746714,
+    "s": 2.69595,
+    "r2": 0.9907439117528221,
+    "n_query": 1000
+   },
+   "ratio": 4.0,
+   "n_gallery": 52591,
+   "dim": 1152
+  },
+  {
+   "id": "wemm_2b/abo",
+   "encoder": "wemm_2b",
+   "corpus": "abo",
+   "cat": {
+    "r_star": 32,
+    "bytes": 128,
+    "full_map10": 0.6903114914894104,
+    "rho0": 0.8361180164911897,
+    "s": 2.15,
+    "r2": 0.9927736058625062,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 320,
+    "bytes": 1280,
+    "full_map10": 0.15908481180667877,
+    "rho0": 0.5216346122972075,
+    "s": 1.9897546403414057,
+    "r2": 0.938505565035324,
+    "n_query": 1000
+   },
+   "ratio": 10.0,
+   "n_gallery": 25399,
+   "dim": 2048
+  },
+  {
+   "id": "wemm_2b/inshop",
+   "encoder": "wemm_2b",
+   "corpus": "inshop",
+   "cat": {
+    "r_star": 40,
+    "bytes": 160,
+    "full_map10": 0.7008370161056519,
+    "rho0": 0.8361180164911897,
+    "s": 1.0,
+    "r2": 0.9907201547299896,
+    "n_query": 1000
+   },
+   "inst": {
+    "r_star": 128,
+    "bytes": 512,
+    "full_map10": 0.44217395782470703,
+    "rho0": 0.3991024384798811,
+    "s": 2.046925,
+    "r2": 0.9965535611896904,
+    "n_query": 1000
+   },
+   "ratio": 3.2,
+   "n_gallery": 52591,
+   "dim": 2048
+  }
+ ],
+ "direction": {
+  "inst_gt_cat": 10,
+  "ties": 0,
+  "of": 10
+ },
+ "ratio": {
+  "min": 3.2,
+  "max": 13.333333333333334,
+  "spread": 4.166666666666667,
+  "median": 7.0
+ },
+ "drift": [
+  {
+   "encoder": "clip_vitl14",
+   "from": "abo",
+   "to": "inshop",
+   "ratio_from": 4.0,
+   "ratio_to": 3.3333333333333335,
+   "rel_change": -0.16666666666666663,
+   "cat_from": 48,
+   "cat_to": 48,
+   "inst_from": 192,
+   "inst_to": 160
+  },
+  {
+   "encoder": "dinov3_vitl16",
+   "from": "abo",
+   "to": "inshop",
+   "ratio_from": 12.0,
+   "ratio_to": 8.0,
+   "rel_change": -0.33333333333333337,
+   "cat_from": 32,
+   "cat_to": 40,
+   "inst_from": 384,
+   "inst_to": 320
+  },
+  {
+   "encoder": "qwen3vl_emb_8b",
+   "from": "abo",
+   "to": "inshop",
+   "ratio_from": 13.333333333333334,
+   "ratio_to": 7.0,
+   "rel_change": -0.475,
+   "cat_from": 48,
+   "cat_to": 32,
+   "inst_from": 640,
+   "inst_to": 224
+  },
+  {
+   "encoder": "siglip2_so400m",
+   "from": "abo",
+   "to": "inshop",
+   "ratio_from": 3.225,
+   "ratio_to": 4.0,
+   "rel_change": 0.24031007751937983,
+   "cat_from": 80,
+   "cat_to": 40,
+   "inst_from": 258,
+   "inst_to": 160
+  },
+  {
+   "encoder": "wemm_2b",
+   "from": "abo",
+   "to": "inshop",
+   "ratio_from": 10.0,
+   "ratio_to": 3.2,
+   "rel_change": -0.6799999999999999,
+   "cat_from": 32,
+   "cat_to": 40,
+   "inst_from": 320,
+   "inst_to": 128
+  }
+ ],
+ "checks": {
+  "grid_step_ratio": 1.5,
+  "single_corpus_ratios": [
+   3.225,
+   4.0,
+   10.0,
+   12.0,
+   13.333
+  ]
+ }
+}

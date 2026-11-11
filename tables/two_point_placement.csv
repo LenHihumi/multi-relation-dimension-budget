@@ -1,0 +1,9 @@
+stratum,n_evaluations,coverage,median_overhead
+separation 0.0-0.5 nats,3838,0.5057,1.0
+separation 0.5-1.0 nats,3106,0.7012,1.0
+separation 1.0-1.5 nats,1812,0.851,1.0
+separation 1.5-2.0 nats,1281,0.8985,1.0
+separation 2.0-10.0 nats,2925,0.8564,1.1518
+straddle,4601,0.9785,1.0
+nonstraddle,8471,0.5771,1.0
+"prescribed rho=(0.04,0.12)",19,1.0,1.0

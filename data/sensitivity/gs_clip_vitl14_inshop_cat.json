@@ -1,0 +1,89 @@
+{
+ "enc": "clip_vitl14",
+ "ds": "inshop",
+ "rel": "cat",
+ "n": 52591,
+ "variants": [
+  {
+   "n_groups": 23,
+   "r_star": 24,
+   "eta2_mean": 0.012270057046015736,
+   "eta2_max": 0.7820975149695426,
+   "group_size_median": 1297.0,
+   "full_map10": 0.6377533333333327,
+   "variant": "real"
+  },
+  {
+   "n_groups": 7,
+   "r_star": 24,
+   "eta2_mean": 0.003410397743419669,
+   "eta2_max": 0.4621060883541768,
+   "group_size_median": 6573.0,
+   "full_map10": 0.6021982936507925,
+   "variant": "random-8"
+  },
+  {
+   "n_groups": 27,
+   "r_star": 48,
+   "eta2_mean": 0.007078899157802177,
+   "eta2_max": 0.7451448826042145,
+   "group_size_median": 1288.0,
+   "full_map10": 0.4040623412698417,
+   "variant": "random-32"
+  },
+  {
+   "n_groups": 72,
+   "r_star": 48,
+   "eta2_mean": 0.011851804553666322,
+   "eta2_max": 0.7380161240541463,
+   "group_size_median": 432.0,
+   "full_map10": 0.30239146825396845,
+   "variant": "random-128"
+  },
+  {
+   "n_groups": 263,
+   "r_star": 64,
+   "eta2_mean": 0.022132356957710927,
+   "eta2_max": 0.7786500168919647,
+   "group_size_median": 113.0,
+   "full_map10": 0.20271059523809487,
+   "variant": "random-512"
+  },
+  {
+   "n_groups": 1221,
+   "r_star": 80,
+   "eta2_mean": 0.060440666981934434,
+   "eta2_max": 0.7973545866806048,
+   "group_size_median": 25.0,
+   "full_map10": 0.14617947845804957,
+   "variant": "random-2048"
+  },
+  {
+   "n_groups": 23,
+   "r_star": 24,
+   "eta2_mean": 0.010682097134753378,
+   "eta2_max": 0.6719808600801243,
+   "group_size_median": 1350.0,
+   "full_map10": 0.5643075793650792,
+   "variant": "noise-05"
+  },
+  {
+   "n_groups": 23,
+   "r_star": 24,
+   "eta2_mean": 0.009323757413414362,
+   "eta2_max": 0.5819775877364183,
+   "group_size_median": 1398.0,
+   "full_map10": 0.48440293650793637,
+   "variant": "noise-10"
+  },
+  {
+   "n_groups": 23,
+   "r_star": 24,
+   "eta2_mean": 0.0062943419301184625,
+   "eta2_max": 0.3827229747313043,
+   "group_size_median": 1543.0,
+   "full_map10": 0.30584273809523826,
+   "variant": "noise-25"
+  }
+ ]
+}

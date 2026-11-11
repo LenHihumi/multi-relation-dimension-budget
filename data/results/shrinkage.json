@@ -1,0 +1,54 @@
+{
+ "eps": 0.05,
+ "n_cells": 19,
+ "datasets": [
+  "inshop",
+  "instre",
+  "sop"
+ ],
+ "median_import": {
+  "n": 19,
+  "coverage": 0.47368421052631576,
+  "median_overhead": 0.75,
+  "within_1_25x": 0.05263157894736842,
+  "within_2x": 0.3157894736842105,
+  "p95_overhead": 6.199999999999996,
+  "max_overhead": 8.0
+ },
+ "hier_regression": {
+  "n": 19,
+  "coverage": 0.47368421052631576,
+  "median_overhead": 0.625,
+  "within_1_25x": 0.0,
+  "within_2x": 0.47368421052631576,
+  "p95_overhead": 6.47499999999999,
+  "max_overhead": 10.75
+ },
+ "hier_blend_2pt_w25": {
+  "n": 19,
+  "coverage": 0.47368421052631576,
+  "median_overhead": 0.75,
+  "within_1_25x": 0.0,
+  "within_2x": 0.5789473684210527,
+  "p95_overhead": 4.083333333333321,
+  "max_overhead": 9.333333333333334
+ },
+ "hier_blend_2pt_w50": {
+  "n": 19,
+  "coverage": 0.631578947368421,
+  "median_overhead": 1.0,
+  "within_1_25x": 0.21052631578947367,
+  "within_2x": 0.7894736842105263,
+  "p95_overhead": 7.5333333333333,
+  "max_overhead": 21.333333333333332
+ },
+ "hier_blend_2pt_w75": {
+  "n": 19,
+  "coverage": 0.9473684210526315,
+  "median_overhead": 1.4,
+  "within_1_25x": 0.47368421052631576,
+  "within_2x": 0.8947368421052632,
+  "p95_overhead": 28.933333333333312,
+  "max_overhead": 37.333333333333336
+ }
+}

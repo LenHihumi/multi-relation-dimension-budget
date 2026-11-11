@@ -1,0 +1,13 @@
+{
+ "schema_version": 2,
+ "gallery_rows": 25399,
+ "gallery_id_hash": "6ef57e74b569fb12",
+ "queries_file": "queries.json",
+ "queries_schema": "dict with row indices",
+ "n_query": 1000,
+ "n_listing": 4999,
+ "n_category": 285,
+ "max_images_per_listing": 10,
+ "seed": 20261106,
+ "eps": null
+}

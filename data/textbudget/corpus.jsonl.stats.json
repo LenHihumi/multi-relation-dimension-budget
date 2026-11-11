@@ -1,0 +1,26 @@
+{
+ "Digital_Music": {
+  "streamed": 130434,
+  "kept": 9058
+ },
+ "Gift_Cards": {
+  "streamed": 152410,
+  "kept": 6235
+ },
+ "Magazine_Subscriptions": {
+  "streamed": 71497,
+  "kept": 9143
+ },
+ "Subscription_Boxes": {
+  "streamed": 16216,
+  "kept": 10480
+ },
+ "Handmade_Products": {
+  "streamed": 664162,
+  "kept": 9123
+ },
+ "All_Beauty": {
+  "streamed": 701528,
+  "kept": 9049
+ }
+}

@@ -1,0 +1,315 @@
+{
+ "requirements": {
+  "min_queries": 1000,
+  "min_images_per_group": 2,
+  "fine_group_target": 1000,
+  "coarse_group_target": 100,
+  "_note": "fine/coarse targets are set-level: the extended corpus must contain at least one cell with >1000 groups and one with <100 groups, otherwise the granularity contrast the paper rests on cannot be re-tested."
+ },
+ "n_candidates": 8,
+ "n_admitted": 6,
+ "set_level": {
+  "fine_cells": [
+   "deepfashion_c2s",
+   "logo2kplus",
+   "abo",
+   "gldv2",
+   "met"
+  ],
+  "coarse_cells": [
+   "stanford_cars",
+   "deepfashion_c2s",
+   "logo2kplus"
+  ],
+  "can_retest_granularity_contrast": [
+   "deepfashion_c2s",
+   "abo"
+  ],
+  "A3_satisfied": true,
+  "contrast_on_new_corpora_possible": true,
+  "contrast_structural": [
+   "deepfashion_c2s",
+   "abo"
+  ],
+  "contrast_measured": [
+   "abo"
+  ]
+ },
+ "rows": [
+  {
+   "name": "stanford_cars",
+   "domain": "consumer cars",
+   "images": 16185,
+   "unverified_counts": true,
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   },
+   "relations": {
+    "inst": null,
+    "cat1": {
+     "name": "make",
+     "groups": 49,
+     "usable": true
+    },
+    "cat": {
+     "name": "make-model-year",
+     "groups": 196,
+     "usable": true
+    }
+   },
+   "usable_relations": [
+    "cat1",
+    "cat"
+   ],
+   "can_retest_granularity_contrast": false,
+   "side": "cat only",
+   "admitted": true,
+   "blocking": []
+  },
+  {
+   "name": "nabirds",
+   "domain": "birds",
+   "images": 48562,
+   "unverified_counts": true,
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://dl.allaboutbirds.org/nabirds",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   },
+   "relations": {
+    "inst": null,
+    "cat1": {
+     "name": "family/order",
+     "groups": 0,
+     "usable": false
+    },
+    "cat": {
+     "name": "species-variant",
+     "groups": 555,
+     "usable": true
+    }
+   },
+   "usable_relations": [
+    "cat"
+   ],
+   "can_retest_granularity_contrast": false,
+   "side": "cat only",
+   "admitted": true,
+   "blocking": []
+  },
+  {
+   "name": "deepfashion_c2s",
+   "domain": "clothing, consumer to shop",
+   "images": 239557,
+   "unverified_counts": true,
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://datadory.com/datasets/apparel-accessories-luxury-goods/deepfashion-dataset-cuhk-mmlab",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   },
+   "relations": {
+    "inst": {
+     "name": "item_id",
+     "groups": 33881,
+     "usable": true
+    },
+    "cat": {
+     "name": "category",
+     "groups": 50,
+     "usable": true
+    }
+   },
+   "usable_relations": [
+    "inst",
+    "cat"
+   ],
+   "can_retest_granularity_contrast": true,
+   "side": "both",
+   "admitted": true,
+   "blocking": []
+  },
+  {
+   "name": "logo2kplus",
+   "domain": "logos",
+   "images": 167140,
+   "unverified_counts": true,
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://arxiv.org/pdf/1911.07924",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   },
+   "relations": {
+    "inst": null,
+    "cat1": {
+     "name": "root category",
+     "groups": 10,
+     "usable": true
+    },
+    "cat": {
+     "name": "logo class",
+     "groups": 2341,
+     "usable": true
+    }
+   },
+   "usable_relations": [
+    "cat1",
+    "cat"
+   ],
+   "can_retest_granularity_contrast": false,
+   "side": "cat only",
+   "admitted": true,
+   "blocking": []
+  },
+  {
+   "name": "abo",
+   "domain": "household products",
+   "images": 444059.19999999995,
+   "unverified_counts": false,
+   "evidence": {
+    "claim": "A1-A4 all pass on the downloadable metadata",
+    "source": "scripts/diag/spectral_budget/sb_abo_meta.py over listings_0..9.json.gz (10 shards)",
+    "kind": "our_measurement",
+    "verified_by_us": true,
+    "measured": {
+     "n_listings": 92320,
+     "images_per_listing": {
+      "median": 5,
+      "mean": 4.81,
+      "single_share": 0.0654,
+      "ge2_share": 0.9334,
+      "p90": 7,
+      "max": 21
+     },
+     "product_types": {
+      "n_types": 546,
+      "share_with_ge2_listings": 0.8846,
+      "median_listings_per_type": 12
+     },
+     "listable": 86170,
+     "multi_colour_share": 0.0001
+    }
+   },
+   "relations": {
+    "inst": {
+     "name": "listing (item_id)",
+     "groups": 92320,
+     "usable": true
+    },
+    "cat": {
+     "name": "product_type",
+     "groups": 546,
+     "usable": true
+    }
+   },
+   "usable_relations": [
+    "inst",
+    "cat"
+   ],
+   "can_retest_granularity_contrast": true,
+   "side": "both",
+   "admitted": true,
+   "blocking": []
+  },
+  {
+   "name": "gldv2",
+   "domain": "landmarks",
+   "images": 4132914,
+   "unverified_counts": true,
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://github.com/cvdfoundation/google-landmark",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   },
+   "relations": {
+    "inst": {
+     "name": "landmark_id",
+     "groups": 81313,
+     "usable": true
+    },
+    "cat": null
+   },
+   "usable_relations": [
+    "inst"
+   ],
+   "can_retest_granularity_contrast": false,
+   "side": "inst only",
+   "admitted": true,
+   "blocking": []
+  },
+  {
+   "name": "met",
+   "domain": "artworks",
+   "images": 490000,
+   "unverified_counts": true,
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   },
+   "relations": {
+    "inst": {
+     "name": "objectID",
+     "groups": 250000,
+     "usable": true
+    },
+    "cat": {
+     "name": "department/artist",
+     "groups": 3000,
+     "usable": true
+    }
+   },
+   "usable_relations": [
+    "inst",
+    "cat"
+   ],
+   "can_retest_granularity_contrast": false,
+   "side": "both",
+   "admitted": false,
+   "blocking": [
+    "item relation present but entity_layer=false: counts disagree"
+   ]
+  },
+  {
+   "name": "product1m",
+   "domain": "cosmetics products",
+   "images": 1182083,
+   "unverified_counts": true,
+   "evidence": {
+    "claim": "relation structure as published",
+    "source": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhan_Product1M_Towards_Weakly_Supervised_Instance-Level_Product_Retrieval_via_Cross-Modal_Pretraining_ICCV_2021_paper.pdf",
+    "kind": "third_party_documentation",
+    "verified_by_us": false
+   },
+   "relations": {
+    "inst": {
+     "name": "identical-product subset",
+     "groups": 819,
+     "usable": true
+    },
+    "cat": {
+     "name": "fine-grained category",
+     "groups": 458,
+     "usable": true
+    }
+   },
+   "usable_relations": [
+    "inst",
+    "cat"
+   ],
+   "can_retest_granularity_contrast": false,
+   "side": "both",
+   "admitted": false,
+   "blocking": [
+    "item relation present but entity_layer=false: counts disagree"
+   ]
+  }
+ ]
+}

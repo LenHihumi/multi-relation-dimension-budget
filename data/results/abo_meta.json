@@ -1,0 +1,35 @@
+{
+ "source": "https://amazon-berkeley-objects.s3.us-east-1.amazonaws.com/listings/metadata/",
+ "n_listings": 92320,
+ "images_per_listing": {
+  "median": 5.0,
+  "mean": 4.810831889081456,
+  "single_share": 0.06542461005199307,
+  "ge2_share": 0.9333838821490468,
+  "p90": 7,
+  "max": 21
+ },
+ "product_types": {
+  "n_types": 546,
+  "share_with_ge2_listings": 0.8846153846153846,
+  "median_listings_per_type": 12.0
+ },
+ "split": {
+  "listable_listings": 86170,
+  "n_query": 5000,
+  "seed": 20261106,
+  "max_query": 5000
+ },
+ "colour_variants": {
+  "listings_with_ge2_images": 86170,
+  "multi_colour": 9,
+  "share": 0.00010444470233259835
+ },
+ "criteria": {
+  "A1_median_ge2_and_single_le_half": true,
+  "A2_types_with_ge2_listings_ge_80pct": true,
+  "A3_split_yields_ge_1000_queries": true,
+  "A4_multi_colour_share_le_20pct": true
+ },
+ "verdict": "both"
+}

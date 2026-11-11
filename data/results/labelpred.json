@@ -1,0 +1,136 @@
+{
+ "n_cells": 19,
+ "target": "log r*",
+ "split": "leave-one-corpus-out",
+ "scoring": "eval_rank on the measured 23-rank grid (as in Sec. 6.1)",
+ "features_label_aware": [
+  "log d",
+  "log n_groups",
+  "log group size",
+  "log PR(omega)",
+  "entropy(omega)",
+  "disc mass top",
+  "log rank@rho=.1",
+  "std(eta^2)",
+  "spearman(lambda, omega)",
+  "partition type"
+ ],
+ "arms": {
+  "label-free, no margin (paper arm)": {
+   "coverage": 0.6842105263157895,
+   "median_overhead": 1.4,
+   "p95_overhead": 5.499999999999989,
+   "max_overhead": 10.0,
+   "within_2x": 0.5789473684210527,
+   "misses": {
+    "n_miss": 6,
+    "under": 6,
+    "over": 0,
+    "id_under": [
+     "clip_vitl14/inshop/inst",
+     "dinov3_vitl16/inshop/inst",
+     "siglip2_so400m/inshop/inst",
+     "dinov3_vitl16/sop/inst",
+     "siglip2_so400m/sop/inst",
+     "wemm_2b/sop/inst"
+    ],
+    "depth_under_median": 1.7996109540556477
+   }
+  },
+  "label-aware, no margin": {
+   "coverage": 0.5789473684210527,
+   "median_overhead": 1.0,
+   "p95_overhead": 3.3999999999999915,
+   "max_overhead": 7.0,
+   "within_2x": 0.6842105263157895,
+   "misses": {
+    "n_miss": 8,
+    "under": 8,
+    "over": 0,
+    "id_under": [
+     "clip_vitl14/inshop/cat",
+     "dinov3_vitl16/inshop/cat",
+     "dinov3_vitl16/inshop/inst",
+     "qwen3vl_emb_8b/inshop/cat",
+     "qwen3vl_emb_8b/inshop/inst",
+     "wemm_2b/inshop/cat",
+     "dinov3_vitl16/sop/inst",
+     "siglip2_so400m/sop/inst"
+    ],
+    "depth_under_median": 1.5913084054922257
+   }
+  },
+  "label-free + margin 0.90": {
+   "coverage": 0.8421052631578947,
+   "median_overhead": 2.4,
+   "p95_overhead": 8.456249999999992,
+   "max_overhead": 12.0,
+   "within_2x": 0.42105263157894735,
+   "misses": {
+    "n_miss": 3,
+    "under": 3,
+    "over": 0,
+    "id_under": [
+     "dinov3_vitl16/sop/inst",
+     "siglip2_so400m/sop/inst",
+     "wemm_2b/sop/inst"
+    ],
+    "depth_under_median": 1.319937385487348
+   }
+  },
+  "label-aware + margin 0.90": {
+   "coverage": 0.7368421052631579,
+   "median_overhead": 1.2,
+   "p95_overhead": 4.628124999999987,
+   "max_overhead": 10.0,
+   "within_2x": 0.7894736842105263,
+   "misses": {
+    "n_miss": 5,
+    "under": 5,
+    "over": 0,
+    "id_under": [
+     "dinov3_vitl16/inshop/inst",
+     "qwen3vl_emb_8b/inshop/cat",
+     "qwen3vl_emb_8b/inshop/inst",
+     "wemm_2b/inshop/cat",
+     "dinov3_vitl16/sop/inst"
+    ],
+    "depth_under_median": 1.4056932686088015
+   }
+  },
+  "both feature sets, no margin": {
+   "coverage": 0.5789473684210527,
+   "median_overhead": 1.0,
+   "p95_overhead": 4.149999999999986,
+   "max_overhead": 10.0,
+   "within_2x": 0.5789473684210527,
+   "misses": {
+    "n_miss": 8,
+    "under": 8,
+    "over": 0,
+    "id_under": [
+     "dinov3_vitl16/inshop/cat",
+     "dinov3_vitl16/inshop/inst",
+     "qwen3vl_emb_8b/inshop/cat",
+     "qwen3vl_emb_8b/inshop/inst",
+     "wemm_2b/inshop/cat",
+     "dinov3_vitl16/sop/inst",
+     "siglip2_so400m/sop/inst",
+     "wemm_2b/sop/inst"
+    ],
+    "depth_under_median": 1.7036211054268888
+   }
+  }
+ },
+ "subsets": {
+  "n": 1023,
+  "coverage_median": 0.5789473684210527,
+  "coverage_best": 0.8947368421052632,
+  "coverage_worst": 0.3157894736842105,
+  "median_overhead_median": 1.0,
+  "median_overhead_best": 0.6,
+  "full_set_coverage": 0.5789473684210527,
+  "full_set_coverage_percentile": 0.5288367546432062,
+  "share_beating_full_coverage": 0.47116324535679377
+ }
+}

@@ -1,0 +1,9 @@
+# Everything here is data or code that is byte-compared across machines: the
+# checks read the .tex/.json/.csv and the shell drivers run under bash.  Pinning
+# LF means a checkout on Windows is byte-identical to one on Linux, so a table
+# rebuilt on either platform matches the committed one.
+* text=auto eol=lf
+
+*.png binary
+*.npz binary
+*.pdf binary

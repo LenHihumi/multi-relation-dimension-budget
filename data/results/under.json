@@ -1,0 +1,2460 @@
+{
+ "eps": 0.05,
+ "n_grid_points_over_eps": 173,
+ "n_decided_not_met": 151,
+ "decided_frac": 0.8728323699421965,
+ "sensitivity": {
+  "se_x1.189": {
+   "n_decided": 148,
+   "frac": 0.8554913294797688
+  },
+  "se_x1.597": {
+   "n_decided": 141,
+   "frac": 0.815028901734104
+  }
+ },
+ "replay_0.5_0.7_0.9": [
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "frac": 0.5,
+   "target": 24.0,
+   "rank": 24,
+   "delta": 0.08716737256429541,
+   "excess": 0.037167372564295406,
+   "z": 4.665328243403072,
+   "state": "not_met"
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "frac": 0.7,
+   "target": 33.599999999999994,
+   "rank": 32,
+   "delta": 0.07364552095733534,
+   "excess": 0.02364552095733534,
+   "z": 2.996084196606661,
+   "state": "not_met"
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "frac": 0.9,
+   "target": 43.2,
+   "rank": 40,
+   "delta": 0.051047660992595834,
+   "excess": 0.0010476609925958308,
+   "z": 0.13206219619221257,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "frac": 0.5,
+   "target": 80.0,
+   "rank": 80,
+   "delta": 0.1310005256772151,
+   "excess": 0.0810005256772151,
+   "z": 4.732483324592447,
+   "state": "not_met"
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "frac": 0.7,
+   "target": 112.0,
+   "rank": 112,
+   "delta": 0.08003183982514905,
+   "excess": 0.03003183982514905,
+   "z": 1.6735728982539513,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "frac": 0.9,
+   "target": 144.0,
+   "rank": 128,
+   "delta": 0.06444491272400399,
+   "excess": 0.014444912724003986,
+   "z": 0.7730905241647255,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "frac": 0.5,
+   "target": 24.0,
+   "rank": 24,
+   "delta": 0.13903599011916512,
+   "excess": 0.08903599011916512,
+   "z": 14.752362803105258,
+   "state": "not_met"
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "frac": 0.7,
+   "target": 33.599999999999994,
+   "rank": 32,
+   "delta": 0.08781437754548649,
+   "excess": 0.037814377545486486,
+   "z": 7.474938025807948,
+   "state": "not_met"
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "frac": 0.9,
+   "target": 43.2,
+   "rank": 40,
+   "delta": 0.06476360952647275,
+   "excess": 0.014763609526472751,
+   "z": 3.275741792035855,
+   "state": "not_met"
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "frac": 0.5,
+   "target": 32.0,
+   "rank": 32,
+   "delta": 0.14691213686754556,
+   "excess": 0.09691213686754556,
+   "z": 15.713381689634572,
+   "state": "not_met"
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "frac": 0.7,
+   "target": 44.8,
+   "rank": 48,
+   "delta": 0.07692752985045304,
+   "excess": 0.026927529850453033,
+   "z": 5.537812870584964,
+   "state": "not_met"
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "frac": 0.9,
+   "target": 57.6,
+   "rank": 56,
+   "delta": 0.05983490416244708,
+   "excess": 0.009834904162447075,
+   "z": 2.3287126585093985,
+   "state": "not_met"
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "frac": 0.5,
+   "target": 20.0,
+   "rank": 16,
+   "delta": 0.12431307783370826,
+   "excess": 0.07431307783370826,
+   "z": 8.658190354278359,
+   "state": "not_met"
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "frac": 0.7,
+   "target": 28.0,
+   "rank": 24,
+   "delta": 0.08683320833441288,
+   "excess": 0.03683320833441288,
+   "z": 4.323427097536654,
+   "state": "not_met"
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "frac": 0.9,
+   "target": 36.0,
+   "rank": 32,
+   "delta": 0.06057849346594202,
+   "excess": 0.010578493465942015,
+   "z": 1.2500230708039237,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "frac": 0.5,
+   "target": 160.0,
+   "rank": 160,
+   "delta": 0.131674677832054,
+   "excess": 0.081674677832054,
+   "z": 3.5641207344907735,
+   "state": "not_met"
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "frac": 0.7,
+   "target": 224.0,
+   "rank": 224,
+   "delta": 0.0840599332364752,
+   "excess": 0.0340599332364752,
+   "z": 1.4591048038920413,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "frac": 0.9,
+   "target": 288.0,
+   "rank": 258,
+   "delta": 0.06709008304638142,
+   "excess": 0.01709008304638142,
+   "z": 0.7262523340954173,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "dinov3_vitl16/instre/cat",
+   "frac": 0.5,
+   "target": 12.0,
+   "rank": 12,
+   "delta": 0.13057979724258728,
+   "excess": 0.08057979724258728,
+   "z": 13.349986110334992,
+   "state": "not_met"
+  },
+  {
+   "id": "dinov3_vitl16/instre/cat",
+   "frac": 0.7,
+   "target": 16.799999999999997,
+   "rank": 16,
+   "delta": 0.08462485809248377,
+   "excess": 0.034624858092483765,
+   "z": 6.1806609742885845,
+   "state": "not_met"
+  },
+  {
+   "id": "dinov3_vitl16/instre/cat",
+   "frac": 0.9,
+   "target": 21.6,
+   "rank": 24,
+   "state": "met_or_grid_miss"
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "frac": 0.5,
+   "target": 16.0,
+   "rank": 16,
+   "delta": 0.12322776702597671,
+   "excess": 0.0732277670259767,
+   "z": 11.648484304328523,
+   "state": "not_met"
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "frac": 0.7,
+   "target": 22.4,
+   "rank": 24,
+   "delta": 0.06085181214669266,
+   "excess": 0.01085181214669266,
+   "z": 1.8766584298946891,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "frac": 0.9,
+   "target": 28.8,
+   "rank": 32,
+   "state": "met_or_grid_miss"
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "frac": 0.5,
+   "target": 160.0,
+   "rank": 160,
+   "delta": 0.08215572276584249,
+   "excess": 0.032155722765842484,
+   "z": 2.420534532507984,
+   "state": "not_met"
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "frac": 0.7,
+   "target": 224.0,
+   "rank": 224,
+   "delta": 0.05888811582677489,
+   "excess": 0.008888115826774887,
+   "z": 0.6638854482542023,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "frac": 0.9,
+   "target": 288.0,
+   "rank": 258,
+   "delta": 0.05298429087421408,
+   "excess": 0.0029842908742140767,
+   "z": 0.22242045601232122,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "frac": 0.5,
+   "target": 16.0,
+   "rank": 16,
+   "delta": 0.08924741680588477,
+   "excess": 0.03924741680588477,
+   "z": 4.9559653545920925,
+   "state": "not_met"
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "frac": 0.7,
+   "target": 22.4,
+   "rank": 24,
+   "delta": 0.05854028118554455,
+   "excess": 0.008540281185544549,
+   "z": 1.0889420396768161,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "frac": 0.9,
+   "target": 28.8,
+   "rank": 32,
+   "state": "met_or_grid_miss"
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "frac": 0.5,
+   "target": 112.0,
+   "rank": 112,
+   "delta": 0.08885342116025297,
+   "excess": 0.03885342116025296,
+   "z": 2.612843827050469,
+   "state": "not_met"
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "frac": 0.7,
+   "target": 156.79999999999998,
+   "rank": 160,
+   "delta": 0.05866783662120245,
+   "excess": 0.008667836621202449,
+   "z": 0.577210150758602,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "frac": 0.9,
+   "target": 201.6,
+   "rank": 192,
+   "delta": 0.05243885887978772,
+   "excess": 0.002438858879787717,
+   "z": 0.1620336289363283,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "frac": 0.5,
+   "target": 20.0,
+   "rank": 16,
+   "delta": 0.12373877168182579,
+   "excess": 0.07373877168182578,
+   "z": 11.022661266265454,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "frac": 0.7,
+   "target": 28.0,
+   "rank": 24,
+   "delta": 0.09327037516791059,
+   "excess": 0.04327037516791059,
+   "z": 6.646664545995343,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "frac": 0.9,
+   "target": 36.0,
+   "rank": 32,
+   "delta": 0.06044848334141817,
+   "excess": 0.010448483341418166,
+   "z": 1.6398511962749052,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "frac": 0.5,
+   "target": 96.0,
+   "rank": 96,
+   "delta": 0.1227552126056689,
+   "excess": 0.0727552126056689,
+   "z": 5.699568536859454,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "frac": 0.7,
+   "target": 134.39999999999998,
+   "rank": 128,
+   "delta": 0.07423138269524654,
+   "excess": 0.024231382695246537,
+   "z": 1.8745231621148264,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "frac": 0.9,
+   "target": 172.8,
+   "rank": 160,
+   "state": "met_or_grid_miss"
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "frac": 0.5,
+   "target": 24.0,
+   "rank": 24,
+   "delta": 0.10926144127701043,
+   "excess": 0.059261441277010427,
+   "z": 8.340319858825847,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "frac": 0.7,
+   "target": 33.599999999999994,
+   "rank": 32,
+   "delta": 0.06751671937015669,
+   "excess": 0.017516719370156683,
+   "z": 3.1320202574868614,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "frac": 0.9,
+   "target": 43.2,
+   "rank": 40,
+   "state": "met_or_grid_miss"
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "frac": 0.5,
+   "target": 32.0,
+   "rank": 32,
+   "delta": 0.12274136478709208,
+   "excess": 0.07274136478709207,
+   "z": 10.864472250299618,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "frac": 0.7,
+   "target": 44.8,
+   "rank": 48,
+   "delta": 0.06854622812558953,
+   "excess": 0.018546228125589523,
+   "z": 4.050518174679869,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "frac": 0.9,
+   "target": 57.6,
+   "rank": 56,
+   "delta": 0.05333287759004879,
+   "excess": 0.0033328775900487856,
+   "z": 0.8311860132726498,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "frac": 0.5,
+   "target": 96.0,
+   "rank": 96,
+   "delta": 0.12612802692424618,
+   "excess": 0.07612802692424618,
+   "z": 7.262523848511354,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "frac": 0.7,
+   "target": 134.39999999999998,
+   "rank": 128,
+   "delta": 0.08046598166578023,
+   "excess": 0.030465981665780226,
+   "z": 2.873905562075277,
+   "state": "not_met"
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "frac": 0.9,
+   "target": 172.8,
+   "rank": 160,
+   "delta": 0.06038126326876092,
+   "excess": 0.010381263268760918,
+   "z": 0.9727392263630398,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "frac": 0.5,
+   "target": 20.0,
+   "rank": 16,
+   "delta": 0.12107810254825313,
+   "excess": 0.07107810254825313,
+   "z": 9.287998063211754,
+   "state": "not_met"
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "frac": 0.7,
+   "target": 28.0,
+   "rank": 24,
+   "delta": 0.06815995018512355,
+   "excess": 0.01815995018512355,
+   "z": 2.3756849709186487,
+   "state": "not_met"
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "frac": 0.9,
+   "target": 36.0,
+   "rank": 32,
+   "delta": 0.05405396010067609,
+   "excess": 0.004053960100676088,
+   "z": 0.5277027653115338,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "frac": 0.5,
+   "target": 64.0,
+   "rank": 64,
+   "delta": 0.13206105151913172,
+   "excess": 0.08206105151913172,
+   "z": 6.406202770498389,
+   "state": "not_met"
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "frac": 0.7,
+   "target": 89.6,
+   "rank": 96,
+   "delta": 0.06964444033792516,
+   "excess": 0.01964444033792516,
+   "z": 1.5095709440442073,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "frac": 0.9,
+   "target": 115.2,
+   "rank": 112,
+   "delta": 0.056269613767192195,
+   "excess": 0.006269613767192192,
+   "z": 0.47951840219632613,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "frac": 0.5,
+   "target": 80.0,
+   "rank": 80,
+   "delta": 0.09966747372094809,
+   "excess": 0.04966747372094808,
+   "z": 3.65882286986581,
+   "state": "not_met"
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "frac": 0.7,
+   "target": 112.0,
+   "rank": 112,
+   "delta": 0.06260972933782405,
+   "excess": 0.012609729337824047,
+   "z": 0.9184484508696924,
+   "state": "undecidable_under"
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "frac": 0.9,
+   "target": 144.0,
+   "rank": 128,
+   "delta": 0.05194155473925244,
+   "excess": 0.0019415547392524352,
+   "z": 0.14086328467819167,
+   "state": "undecidable_under"
+  }
+ ],
+ "n_cells_with_over": 19,
+ "resolution_curve": [
+  {
+   "z_lo": 0,
+   "z_hi": 1,
+   "n": 13,
+   "decided": 0
+  },
+  {
+   "z_lo": 1,
+   "z_hi": 2,
+   "n": 9,
+   "decided": 0
+  },
+  {
+   "z_lo": 2,
+   "z_hi": 3,
+   "n": 10,
+   "decided": 10
+  },
+  {
+   "z_lo": 3,
+   "z_hi": 5,
+   "n": 14,
+   "decided": 14
+  },
+  {
+   "z_lo": 5,
+   "z_hi": 10,
+   "n": 27,
+   "decided": 27
+  },
+  {
+   "z_lo": 10,
+   "z_hi": 1000000000.0,
+   "n": 100,
+   "decided": 100
+  }
+ ],
+ "cells": [
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "n_over": 17,
+   "n_decided": 15,
+   "decided_frac": 0.8823529411764706
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "n_over": 17,
+   "n_decided": 14,
+   "decided_frac": 0.8235294117647058
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "n_over": 15,
+   "n_decided": 13,
+   "decided_frac": 0.8666666666666667
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "n_over": 14,
+   "n_decided": 13,
+   "decided_frac": 0.9285714285714286
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "n_over": 13,
+   "n_decided": 11,
+   "decided_frac": 0.8461538461538461
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "n_over": 13,
+   "n_decided": 12,
+   "decided_frac": 0.9230769230769231
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "n_over": 13,
+   "n_decided": 11,
+   "decided_frac": 0.8461538461538461
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "n_over": 12,
+   "n_decided": 10,
+   "decided_frac": 0.8333333333333334
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "n_over": 8,
+   "n_decided": 8,
+   "decided_frac": 1.0
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "n_over": 8,
+   "n_decided": 7,
+   "decided_frac": 0.875
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "n_over": 6,
+   "n_decided": 5,
+   "decided_frac": 0.8333333333333334
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "n_over": 6,
+   "n_decided": 6,
+   "decided_frac": 1.0
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "n_over": 5,
+   "n_decided": 4,
+   "decided_frac": 0.8
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "n_over": 5,
+   "n_decided": 4,
+   "decided_frac": 0.8
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "n_over": 5,
+   "n_decided": 5,
+   "decided_frac": 1.0
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "n_over": 5,
+   "n_decided": 4,
+   "decided_frac": 0.8
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "n_over": 4,
+   "n_decided": 3,
+   "decided_frac": 0.75
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "n_over": 4,
+   "n_decided": 3,
+   "decided_frac": 0.75
+  },
+  {
+   "id": "dinov3_vitl16/instre/cat",
+   "n_over": 3,
+   "n_decided": 3,
+   "decided_frac": 1.0
+  }
+ ],
+ "rows": [
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "rank": 40,
+   "delta": 0.051047660992595834,
+   "excess": 0.0010476609925958308,
+   "se": 0.007933087763215687,
+   "z": 0.13206219619221257,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 128,
+   "delta": 0.05194155473925244,
+   "excess": 0.0019415547392524352,
+   "se": 0.013783256181254056,
+   "z": 0.14086328467819167,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 192,
+   "delta": 0.05243885887978772,
+   "excess": 0.002438858879787717,
+   "se": 0.015051559949608209,
+   "z": 0.1620336289363283,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 258,
+   "delta": 0.05298429087421408,
+   "excess": 0.0029842908742140767,
+   "se": 0.013417339968266042,
+   "z": 0.22242045601232122,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 112,
+   "delta": 0.056269613767192195,
+   "excess": 0.006269613767192192,
+   "se": 0.013074813684888081,
+   "z": 0.47951840219632613,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "rank": 32,
+   "delta": 0.05405396010067609,
+   "excess": 0.004053960100676088,
+   "se": 0.007682279432973595,
+   "z": 0.5277027653115338,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 160,
+   "delta": 0.05866783662120245,
+   "excess": 0.008667836621202449,
+   "se": 0.01501677787511306,
+   "z": 0.577210150758602,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 224,
+   "delta": 0.05888811582677489,
+   "excess": 0.008888115826774887,
+   "se": 0.01338802627794851,
+   "z": 0.6638854482542023,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 258,
+   "delta": 0.06709008304638142,
+   "excess": 0.01709008304638142,
+   "se": 0.023531880372774223,
+   "z": 0.7262523340954173,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 128,
+   "delta": 0.06444491272400399,
+   "excess": 0.014444912724003986,
+   "se": 0.018684633005443683,
+   "z": 0.7730905241647255,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "rank": 56,
+   "delta": 0.05333287759004879,
+   "excess": 0.0033328775900487856,
+   "se": 0.004009785459365662,
+   "z": 0.8311860132726498,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 112,
+   "delta": 0.06260972933782405,
+   "excess": 0.012609729337824047,
+   "se": 0.013729381682645017,
+   "z": 0.9184484508696924,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 160,
+   "delta": 0.06038126326876092,
+   "excess": 0.010381263268760918,
+   "se": 0.01067219557658353,
+   "z": 0.9727392263630398,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "rank": 24,
+   "delta": 0.05854028118554455,
+   "excess": 0.008540281185544549,
+   "se": 0.007842732555425258,
+   "z": 1.0889420396768161,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "rank": 32,
+   "delta": 0.06057849346594202,
+   "excess": 0.010578493465942015,
+   "se": 0.008462638580853311,
+   "z": 1.2500230708039237,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 224,
+   "delta": 0.0840599332364752,
+   "excess": 0.0340599332364752,
+   "se": 0.023343034129983772,
+   "z": 1.4591048038920413,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 96,
+   "delta": 0.06964444033792516,
+   "excess": 0.01964444033792516,
+   "se": 0.013013260764874577,
+   "z": 1.5095709440442073,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 192,
+   "delta": 0.07067490415962596,
+   "excess": 0.02067490415962596,
+   "se": 0.013333191643531849,
+   "z": 1.5506342901518029,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "rank": 32,
+   "delta": 0.06044848334141817,
+   "excess": 0.010448483341418166,
+   "se": 0.006371604548725517,
+   "z": 1.6398511962749052,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 112,
+   "delta": 0.08003183982514905,
+   "excess": 0.03003183982514905,
+   "se": 0.017944745553947157,
+   "z": 1.6735728982539513,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 128,
+   "delta": 0.07423138269524654,
+   "excess": 0.024231382695246537,
+   "se": 0.01292669153680066,
+   "z": 1.8745231621148264,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "rank": 24,
+   "delta": 0.06085181214669266,
+   "excess": 0.01085181214669266,
+   "se": 0.005782518530717187,
+   "z": 1.8766584298946891,
+   "state": "undecidable_under",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 96,
+   "delta": 0.07805025781192809,
+   "excess": 0.02805025781192809,
+   "se": 0.013658756482762633,
+   "z": 2.0536465268509287,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 128,
+   "delta": 0.08064864079635292,
+   "excess": 0.03064864079635292,
+   "se": 0.014906382568589567,
+   "z": 2.0560750172167945,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "rank": 56,
+   "delta": 0.05983490416244708,
+   "excess": 0.009834904162447075,
+   "se": 0.0042233223263974376,
+   "z": 2.3287126585093985,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "rank": 24,
+   "delta": 0.06815995018512355,
+   "excess": 0.01815995018512355,
+   "se": 0.007644090191849518,
+   "z": 2.3756849709186487,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 160,
+   "delta": 0.08215572276584249,
+   "excess": 0.032155722765842484,
+   "se": 0.01328455443786833,
+   "z": 2.420534532507984,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 192,
+   "delta": 0.10854705919409391,
+   "excess": 0.058547059194093906,
+   "se": 0.023104088680999772,
+   "z": 2.5340562011537617,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 112,
+   "delta": 0.08885342116025297,
+   "excess": 0.03885342116025296,
+   "se": 0.014870165892813036,
+   "z": 2.612843827050469,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 96,
+   "delta": 0.10051266599797881,
+   "excess": 0.05051266599797881,
+   "se": 0.0177689162240266,
+   "z": 2.8427544685970823,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 128,
+   "delta": 0.08046598166578023,
+   "excess": 0.030465981665780226,
+   "se": 0.01060089867524402,
+   "z": 2.873905562075277,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "rank": 32,
+   "delta": 0.07364552095733534,
+   "excess": 0.02364552095733534,
+   "se": 0.007892141677498934,
+   "z": 2.996084196606661,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "rank": 32,
+   "delta": 0.06751671937015669,
+   "excess": 0.017516719370156683,
+   "se": 0.005592786102926464,
+   "z": 3.1320202574868614,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "rank": 40,
+   "delta": 0.06476360952647275,
+   "excess": 0.014763609526472751,
+   "se": 0.004506951543728741,
+   "z": 3.275741792035855,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 80,
+   "delta": 0.09460294321831197,
+   "excess": 0.04460294321831197,
+   "se": 0.0129151264305494,
+   "z": 3.453542902437897,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 112,
+   "delta": 0.09519155330059248,
+   "excess": 0.04519155330059248,
+   "se": 0.0128466021760339,
+   "z": 3.517782576384284,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 160,
+   "delta": 0.131674677832054,
+   "excess": 0.081674677832054,
+   "se": 0.022915799973236128,
+   "z": 3.5641207344907735,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 80,
+   "delta": 0.09966747372094809,
+   "excess": 0.04966747372094808,
+   "se": 0.01357471391414192,
+   "z": 3.65882286986581,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 96,
+   "delta": 0.1047118369459914,
+   "excess": 0.054711836945991396,
+   "se": 0.014807961897470306,
+   "z": 3.6947580851986124,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "rank": 48,
+   "delta": 0.06854622812558953,
+   "excess": 0.018546228125589523,
+   "se": 0.004578729763891337,
+   "z": 4.050518174679869,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "rank": 24,
+   "delta": 0.08683320833441288,
+   "excess": 0.03683320833441288,
+   "se": 0.008519447073688192,
+   "z": 4.323427097536654,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 128,
+   "delta": 0.10903238170771223,
+   "excess": 0.05903238170771223,
+   "se": 0.013189405711270266,
+   "z": 4.4757423495790585,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 112,
+   "delta": 0.09909574117303,
+   "excess": 0.04909574117302999,
+   "se": 0.010545139147187696,
+   "z": 4.6557698753670245,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "rank": 24,
+   "delta": 0.08716737256429541,
+   "excess": 0.037167372564295406,
+   "se": 0.007966721873611209,
+   "z": 4.665328243403072,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 80,
+   "delta": 0.1310005256772151,
+   "excess": 0.0810005256772151,
+   "se": 0.017115860769396522,
+   "z": 4.732483324592447,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "rank": 16,
+   "delta": 0.08924741680588477,
+   "excess": 0.03924741680588477,
+   "se": 0.007919227435583048,
+   "z": 4.9559653545920925,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 128,
+   "delta": 0.168053494285747,
+   "excess": 0.118053494285747,
+   "se": 0.02269529193442223,
+   "z": 5.201673308581407,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 112,
+   "delta": 0.11893699263126634,
+   "excess": 0.06893699263126633,
+   "se": 0.01316103973074501,
+   "z": 5.237959465331999,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "rank": 48,
+   "delta": 0.07692752985045304,
+   "excess": 0.026927529850453033,
+   "se": 0.004862484608947911,
+   "z": 5.537812870584964,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 80,
+   "delta": 0.13276823418528472,
+   "excess": 0.08276823418528471,
+   "se": 0.01472341612031052,
+   "z": 5.621537387040795,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 96,
+   "delta": 0.1227552126056689,
+   "excess": 0.0727552126056689,
+   "se": 0.0127650386402333,
+   "z": 5.699568536859454,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 64,
+   "delta": 0.129194181863581,
+   "excess": 0.079194181863581,
+   "se": 0.013488404816030765,
+   "z": 5.871278549518318,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 96,
+   "delta": 0.1301234312732209,
+   "excess": 0.0801234312732209,
+   "se": 0.013133388382966477,
+   "z": 6.100743306817763,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 112,
+   "delta": 0.18906188092541543,
+   "excess": 0.13906188092541544,
+   "se": 0.022611004153973154,
+   "z": 6.150185988134446,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/instre/cat",
+   "rank": 16,
+   "delta": 0.08462485809248377,
+   "excess": 0.034624858092483765,
+   "se": 0.005602128677907173,
+   "z": 6.1806609742885845,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 64,
+   "delta": 0.13206105151913172,
+   "excess": 0.08206105151913172,
+   "se": 0.012809624431033666,
+   "z": 6.406202770498389,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "rank": 24,
+   "delta": 0.09327037516791059,
+   "excess": 0.04327037516791059,
+   "se": 0.006510088611885982,
+   "z": 6.646664545995343,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 56,
+   "delta": 0.14319943383546752,
+   "excess": 0.09319943383546751,
+   "se": 0.013459132666813775,
+   "z": 6.924624055847941,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 96,
+   "delta": 0.12612802692424618,
+   "excess": 0.07612802692424618,
+   "se": 0.010482310077350124,
+   "z": 7.262523848511354,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 96,
+   "delta": 0.2154923026399581,
+   "excess": 0.16549230263995812,
+   "se": 0.022550435011267616,
+   "z": 7.338763201564305,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "rank": 32,
+   "delta": 0.08781437754548649,
+   "excess": 0.037814377545486486,
+   "se": 0.0050588215467377365,
+   "z": 7.474938025807948,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 80,
+   "delta": 0.1480296141387616,
+   "excess": 0.09802961413876159,
+   "se": 0.01309887937420559,
+   "z": 7.483816847096266,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 64,
+   "delta": 0.18015167964861212,
+   "excess": 0.13015167964861213,
+   "se": 0.01676863360281592,
+   "z": 7.761615092284922,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "rank": 40,
+   "delta": 0.094458539445754,
+   "excess": 0.044458539445753995,
+   "se": 0.005529046929930961,
+   "z": 8.040904700063583,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 80,
+   "delta": 0.1555701641169367,
+   "excess": 0.10557016411693669,
+   "se": 0.012703773346183759,
+   "z": 8.310142289231742,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "rank": 24,
+   "delta": 0.10926144127701043,
+   "excess": 0.059261441277010427,
+   "se": 0.007105415892928748,
+   "z": 8.340319858825847,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "rank": 16,
+   "delta": 0.12431307783370826,
+   "excess": 0.07431307783370826,
+   "se": 0.00858298036806123,
+   "z": 8.658190354278359,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 64,
+   "delta": 0.16965854893932208,
+   "excess": 0.11965854893932208,
+   "se": 0.013610841963504676,
+   "z": 8.791414172625588,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 48,
+   "delta": 0.1689082588776747,
+   "excess": 0.11890825887767469,
+   "se": 0.013425150656858637,
+   "z": 8.857126591493918,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 56,
+   "delta": 0.16514983872853184,
+   "excess": 0.11514983872853184,
+   "se": 0.012758999015955468,
+   "z": 9.024990015637895,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "rank": 16,
+   "delta": 0.12107810254825313,
+   "excess": 0.07107810254825313,
+   "se": 0.007652682748694996,
+   "z": 9.287998063211754,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 56,
+   "delta": 0.20839768093807398,
+   "excess": 0.158397680938074,
+   "se": 0.016250198886513075,
+   "z": 9.747430295732372,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 80,
+   "delta": 0.15194014384795584,
+   "excess": 0.10194014384795584,
+   "se": 0.010442606476963582,
+   "z": 9.76194440275386,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 80,
+   "delta": 0.260771893486476,
+   "excess": 0.21077189348647601,
+   "se": 0.021058464233740425,
+   "z": 10.008891966051909,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 56,
+   "delta": 0.18894862191148265,
+   "excess": 0.13894862191148266,
+   "se": 0.013541467911088772,
+   "z": 10.260971914108447,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "rank": 40,
+   "delta": 0.10544653677699689,
+   "excess": 0.05544653677699689,
+   "se": 0.005396851023776838,
+   "z": 10.273868322975154,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "rank": 12,
+   "delta": 0.1321332704407725,
+   "excess": 0.0821332704407725,
+   "se": 0.007973808939235405,
+   "z": 10.300381043322078,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 64,
+   "delta": 0.1887653109256887,
+   "excess": 0.13876531092568872,
+   "se": 0.01306548933645152,
+   "z": 10.62075115231591,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "rank": 32,
+   "delta": 0.12274136478709208,
+   "excess": 0.07274136478709207,
+   "se": 0.006695342683128122,
+   "z": 10.864472250299618,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "rank": 16,
+   "delta": 0.12373877168182579,
+   "excess": 0.07373877168182578,
+   "se": 0.0066897430575591785,
+   "z": 11.022661266265454,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 40,
+   "delta": 0.20417369280280562,
+   "excess": 0.15417369280280563,
+   "se": 0.013420393961549267,
+   "z": 11.488015422239336,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "rank": 16,
+   "delta": 0.12322776702597671,
+   "excess": 0.0732277670259767,
+   "se": 0.006286463123684307,
+   "z": 11.648484304328523,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "rank": 16,
+   "delta": 0.14535852087023493,
+   "excess": 0.09535852087023493,
+   "se": 0.008109098491250421,
+   "z": 11.759447856395523,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 56,
+   "delta": 0.20524595301940962,
+   "excess": 0.15524595301940963,
+   "se": 0.01306987504877935,
+   "z": 11.878151278417057,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 48,
+   "delta": 0.20370253885556655,
+   "excess": 0.15370253885556656,
+   "se": 0.012751038378648922,
+   "z": 12.05411938159758,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 48,
+   "delta": 0.24853896869946246,
+   "excess": 0.19853896869946247,
+   "se": 0.0158628421274909,
+   "z": 12.51597709312047,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 64,
+   "delta": 0.2156157881095807,
+   "excess": 0.16561578810958072,
+   "se": 0.012694027949709906,
+   "z": 13.046748342267948,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 64,
+   "delta": 0.18890201561816966,
+   "excess": 0.13890201561816967,
+   "se": 0.010420701151415183,
+   "z": 13.329430870331224,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/instre/cat",
+   "rank": 12,
+   "delta": 0.13057979724258728,
+   "excess": 0.08057979724258728,
+   "se": 0.006035946148303916,
+   "z": 13.349986110334992,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 64,
+   "delta": 0.3103059425333379,
+   "excess": 0.2603059425333379,
+   "se": 0.01936448271918175,
+   "z": 13.442442347065036,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 48,
+   "delta": 0.22640422320667886,
+   "excess": 0.17640422320667887,
+   "se": 0.013090610973938517,
+   "z": 13.47562948420618,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 48,
+   "delta": 0.2259455260175225,
+   "excess": 0.1759455260175225,
+   "se": 0.01282699234209728,
+   "z": 13.71681851248026,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "rank": 24,
+   "delta": 0.13903599011916512,
+   "excess": 0.08903599011916512,
+   "se": 0.006035371506754411,
+   "z": 14.752362803105258,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 32,
+   "delta": 0.2535967131876208,
+   "excess": 0.2035967131876208,
+   "se": 0.013495139519184301,
+   "z": 15.08666975233517,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 40,
+   "delta": 0.25139870473925163,
+   "excess": 0.20139870473925164,
+   "se": 0.013136876399479042,
+   "z": 15.330790868005604,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 56,
+   "delta": 0.3394153933777966,
+   "excess": 0.2894153933777966,
+   "se": 0.01880327899958693,
+   "z": 15.391751267646162,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 56,
+   "delta": 0.21172471891448796,
+   "excess": 0.16172471891448797,
+   "se": 0.010427831032118187,
+   "z": 15.508950846668746,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "rank": 32,
+   "delta": 0.14691213686754556,
+   "excess": 0.09691213686754556,
+   "se": 0.006167490791079952,
+   "z": 15.713381689634572,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "rank": 12,
+   "delta": 0.17542597391447978,
+   "excess": 0.1254259739144798,
+   "se": 0.007820181453805765,
+   "z": 16.038754938792383,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "rank": 12,
+   "delta": 0.1887290022655811,
+   "excess": 0.1387290022655811,
+   "se": 0.008619745032184257,
+   "z": 16.09432781916369,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 56,
+   "delta": 0.2603350185681311,
+   "excess": 0.21033501856813114,
+   "se": 0.012772824381721136,
+   "z": 16.46738515164557,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 40,
+   "delta": 0.26514668209199543,
+   "excess": 0.21514668209199544,
+   "se": 0.012851793699781401,
+   "z": 16.740595680092103,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "rank": 12,
+   "delta": 0.16853474462154516,
+   "excess": 0.11853474462154516,
+   "se": 0.0070359212970286305,
+   "z": 16.847082225266515,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "rank": 24,
+   "delta": 0.18345184188060504,
+   "excess": 0.13345184188060505,
+   "se": 0.0075995403915439476,
+   "z": 17.560514847594952,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "rank": 16,
+   "delta": 0.19922430230004173,
+   "excess": 0.14922430230004174,
+   "se": 0.008494651895289803,
+   "z": 17.56685313765301,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 32,
+   "delta": 0.29520800650737056,
+   "excess": 0.24520800650737057,
+   "se": 0.01327405688437126,
+   "z": 18.47272530495752,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 48,
+   "delta": 0.246573480124338,
+   "excess": 0.196573480124338,
+   "se": 0.010469061436437036,
+   "z": 18.776609662464487,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 40,
+   "delta": 0.3227466030335443,
+   "excess": 0.2727466030335443,
+   "se": 0.01408941750052645,
+   "z": 19.35825970259971,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 24,
+   "delta": 0.3219306320966776,
+   "excess": 0.2719306320966776,
+   "se": 0.013751806926155031,
+   "z": 19.774174663511562,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 48,
+   "delta": 0.40791057098295824,
+   "excess": 0.35791057098295825,
+   "se": 0.018050879725766987,
+   "z": 19.827874121395517,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 40,
+   "delta": 0.29335159232778907,
+   "excess": 0.24335159232778908,
+   "se": 0.012237033721142567,
+   "z": 19.886485391254396,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "rank": 12,
+   "delta": 0.1898345382765413,
+   "excess": 0.1398345382765413,
+   "se": 0.006455166853321057,
+   "z": 21.662420422889483,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 24,
+   "delta": 0.3445780762618238,
+   "excess": 0.2945780762618238,
+   "se": 0.01351173673320028,
+   "z": 21.801644161553497,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 48,
+   "delta": 0.3107105252076434,
+   "excess": 0.26071052520764343,
+   "se": 0.011681967830408063,
+   "z": 22.31734661424218,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "rank": 12,
+   "delta": 0.24026510899751563,
+   "excess": 0.19026510899751564,
+   "se": 0.008386109616249986,
+   "z": 22.68812568688989,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 40,
+   "delta": 0.2927735089112956,
+   "excess": 0.24277350891129562,
+   "se": 0.010579500790101228,
+   "z": 22.94753918242041,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "rank": 24,
+   "delta": 0.21351872959918006,
+   "excess": 0.16351872959918007,
+   "se": 0.006814683274327322,
+   "z": 23.995059347100913,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "rank": 8,
+   "delta": 0.265051421392385,
+   "excess": 0.21505142139238503,
+   "se": 0.0088882987807632,
+   "z": 24.19489113685257,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "rank": 8,
+   "delta": 0.25440724734604103,
+   "excess": 0.20440724734604104,
+   "se": 0.008195501677425587,
+   "z": 24.941395339967826,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 16,
+   "delta": 0.4110320261000088,
+   "excess": 0.3610320261000088,
+   "se": 0.014337826229962693,
+   "z": 25.18038789907612,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "rank": 16,
+   "delta": 0.23580460275428994,
+   "excess": 0.18580460275428995,
+   "se": 0.00730807300906034,
+   "z": 25.424568490754638,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "rank": 8,
+   "delta": 0.2617263170092895,
+   "excess": 0.2117263170092895,
+   "se": 0.008317177401294487,
+   "z": 25.4565108802821,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "rank": 12,
+   "delta": 0.28834073310544306,
+   "excess": 0.23834073310544307,
+   "se": 0.009332678678544247,
+   "z": 25.53829841515775,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 32,
+   "delta": 0.33734225000161766,
+   "excess": 0.28734225000161767,
+   "se": 0.011228760629742015,
+   "z": 25.589845529392097,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 32,
+   "delta": 0.4174633519743962,
+   "excess": 0.3674633519743962,
+   "se": 0.013289275667150581,
+   "z": 27.651119683123095,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 32,
+   "delta": 0.3560189264703921,
+   "excess": 0.30601892647039214,
+   "se": 0.01083022438040872,
+   "z": 28.256009822286188,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 40,
+   "delta": 0.4769175631084621,
+   "excess": 0.42691756310846213,
+   "se": 0.015033582960882601,
+   "z": 28.39759252463648,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 16,
+   "delta": 0.4612661217808117,
+   "excess": 0.41126612178081173,
+   "se": 0.01439558201138854,
+   "z": 28.568912424343353,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 32,
+   "delta": 0.36555157973787544,
+   "excess": 0.31555157973787545,
+   "se": 0.011010957747160509,
+   "z": 28.657959369542535,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 12,
+   "delta": 0.5014306434759909,
+   "excess": 0.4514306434759909,
+   "se": 0.015191022919276029,
+   "z": 29.716935184342745,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "rank": 8,
+   "delta": 0.28352365109597566,
+   "excess": 0.23352365109597567,
+   "se": 0.00768506374726988,
+   "z": 30.38669017923696,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "rank": 16,
+   "delta": 0.3185793082331235,
+   "excess": 0.26857930823312354,
+   "se": 0.008777560335700563,
+   "z": 30.598400690080524,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 40,
+   "delta": 0.3763201790314403,
+   "excess": 0.32632017903144034,
+   "se": 0.010626346067608454,
+   "z": 30.70859700552566,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 12,
+   "delta": 0.5359157812222016,
+   "excess": 0.48591578122220164,
+   "se": 0.015169125415083706,
+   "z": 32.0332100846778,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 32,
+   "delta": 0.5464523639580687,
+   "excess": 0.49645236395806874,
+   "se": 0.015205008732578467,
+   "z": 32.65058065335818,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/instre/cat",
+   "rank": 8,
+   "delta": 0.2787837892870991,
+   "excess": 0.22878378928709914,
+   "se": 0.006749154673585742,
+   "z": 33.898139893354845,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "rank": 12,
+   "delta": 0.3160653464775436,
+   "excess": 0.2660653464775436,
+   "se": 0.00775477676891191,
+   "z": 34.309865313489325,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 24,
+   "delta": 0.44114973581740413,
+   "excess": 0.39114973581740414,
+   "se": 0.011336124131879474,
+   "z": 34.50471530365586,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "rank": 8,
+   "delta": 0.3597823517943888,
+   "excess": 0.3097823517943888,
+   "se": 0.008947880288769134,
+   "z": 34.620752826030746,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 24,
+   "delta": 0.4088864905435745,
+   "excess": 0.3588864905435745,
+   "se": 0.010358102834332717,
+   "z": 34.64789800638183,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "rank": 16,
+   "delta": 0.34893680258793536,
+   "excess": 0.29893680258793537,
+   "se": 0.007844723171577101,
+   "z": 38.10673698098606,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 24,
+   "delta": 0.6589076105994913,
+   "excess": 0.6089076105994913,
+   "se": 0.01578185053295327,
+   "z": 38.58277641953728,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 24,
+   "delta": 0.43077646394252966,
+   "excess": 0.3807764639425297,
+   "se": 0.009796495900844322,
+   "z": 38.86863913347956,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "rank": 8,
+   "delta": 0.4241020578800019,
+   "excess": 0.3741020578800019,
+   "se": 0.009623215993229049,
+   "z": 38.87495179815379,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "rank": 12,
+   "delta": 0.4340300789594167,
+   "excess": 0.3840300789594167,
+   "se": 0.009221841585187818,
+   "z": 41.64353458166624,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 16,
+   "delta": 0.5680269577309742,
+   "excess": 0.5180269577309742,
+   "se": 0.012398162692261589,
+   "z": 41.78255847975804,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 32,
+   "delta": 0.4653424064189159,
+   "excess": 0.4153424064189159,
+   "se": 0.009641014779941235,
+   "z": 43.080776857957225,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "rank": 8,
+   "delta": 0.36141802034836945,
+   "excess": 0.31141802034836946,
+   "se": 0.00707049307515519,
+   "z": 44.044738752754405,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 24,
+   "delta": 0.5403978137707696,
+   "excess": 0.4903978137707696,
+   "se": 0.011116003474975884,
+   "z": 44.116378235644035,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 12,
+   "delta": 0.6507691941611093,
+   "excess": 0.6007691941611093,
+   "se": 0.013252530284363347,
+   "z": 45.3324143593889,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "rank": 8,
+   "delta": 0.6607344340902707,
+   "excess": 0.6107344340902706,
+   "se": 0.012967818850208201,
+   "z": 47.09615712132385,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "rank": 8,
+   "delta": 0.4559991646130469,
+   "excess": 0.4059991646130469,
+   "se": 0.008515822387006041,
+   "z": 47.675861022247844,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "rank": 12,
+   "delta": 0.4558073844572338,
+   "excess": 0.4058073844572338,
+   "se": 0.008330299505494323,
+   "z": 48.714621147724635,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 16,
+   "delta": 0.5618631687235606,
+   "excess": 0.5118631687235605,
+   "se": 0.01009541671856094,
+   "z": 50.702529969116966,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "rank": 8,
+   "delta": 0.6863346711501668,
+   "excess": 0.6363346711501667,
+   "se": 0.012159836687809355,
+   "z": 52.33085669547796,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 16,
+   "delta": 0.5338214828071854,
+   "excess": 0.48382148280718545,
+   "se": 0.008648601527239709,
+   "z": 55.942163745587905,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 16,
+   "delta": 0.7597430682087714,
+   "excess": 0.7097430682087713,
+   "se": 0.01267684458146301,
+   "z": 55.987360549218096,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "rank": 8,
+   "delta": 0.5948718033503997,
+   "excess": 0.5448718033503996,
+   "se": 0.009387545979295956,
+   "z": 58.0419850461562,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 24,
+   "delta": 0.5821802831402141,
+   "excess": 0.532180283140214,
+   "se": 0.00885793750123401,
+   "z": 60.079480473425704,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "rank": 8,
+   "delta": 0.6227342496582883,
+   "excess": 0.5727342496582882,
+   "se": 0.008856840421910378,
+   "z": 64.66575238743573,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 8,
+   "delta": 0.6599844985452483,
+   "excess": 0.6099844985452483,
+   "se": 0.008468938900621531,
+   "z": 72.02608327951,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 12,
+   "delta": 0.6576480000694205,
+   "excess": 0.6076480000694204,
+   "se": 0.007492269008453839,
+   "z": 81.10333456844461,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "rank": 8,
+   "delta": 0.7770714577332332,
+   "excess": 0.7270714577332331,
+   "se": 0.008944745064417996,
+   "z": 81.28476021362619,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "rank": 12,
+   "delta": 0.6638065237235604,
+   "excess": 0.6138065237235604,
+   "se": 0.007501710336071104,
+   "z": 81.82221069935784,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "rank": 8,
+   "delta": 0.7242975419544986,
+   "excess": 0.6742975419544985,
+   "se": 0.008007633355524632,
+   "z": 84.20684514598645,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 16,
+   "delta": 0.7697103625686794,
+   "excess": 0.7197103625686794,
+   "se": 0.007381251362594819,
+   "z": 97.50519623486593,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 16,
+   "delta": 0.7617123767032731,
+   "excess": 0.711712376703273,
+   "se": 0.0068931473935920995,
+   "z": 103.24926134103617,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 12,
+   "delta": 0.8575316300016397,
+   "excess": 0.8075316300016396,
+   "se": 0.005977493688911527,
+   "z": 135.09535468011296,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 12,
+   "delta": 0.8719524037689044,
+   "excess": 0.8219524037689043,
+   "se": 0.005761869875148841,
+   "z": 142.65376025134057,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 12,
+   "delta": 0.8477665238837574,
+   "excess": 0.7977665238837574,
+   "se": 0.004935138637495184,
+   "z": 161.65027620959836,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "rank": 8,
+   "delta": 0.9205398942390508,
+   "excess": 0.8705398942390508,
+   "se": 0.00413907316457325,
+   "z": 210.3224223456813,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "rank": 8,
+   "delta": 0.9438757470623012,
+   "excess": 0.8938757470623011,
+   "se": 0.002573176210064653,
+   "z": 347.3822521621408,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "rank": 8,
+   "delta": 0.9311929354215048,
+   "excess": 0.8811929354215048,
+   "se": 0.002159258747825672,
+   "z": 408.0997408526641,
+   "state": "not_met",
+   "ratio_to_rstar": null
+  }
+ ]
+}

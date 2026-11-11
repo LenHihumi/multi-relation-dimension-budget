@@ -1,0 +1,15 @@
+{
+ "cells": [
+  "dinov3_vitl16/inshop/cat",
+  "clip_vitl14/instre/inst",
+  "dinov3_vitl16/instre/inst"
+ ],
+ "ranks": [
+  40,
+  64,
+  32
+ ],
+ "metric": "map10",
+ "cut": 10,
+ "delta": "1 - mean(map10_r) / mean(map10_full)"
+}

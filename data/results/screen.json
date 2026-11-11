@@ -1,0 +1,145 @@
+{
+ "n_cells": 19,
+ "flag_rate": 0.15789473684210525,
+ "flagged": [
+  "dinov3_vitl16/instre/cat",
+  "dinov3_vitl16/sop/inst",
+  "siglip2_so400m/instre/cat"
+ ],
+ "note": "Leave-one-cell-out span of (log effective rank, spectral entropy) at the measured budget. Cells outside the span are the ones the rule would send back for recalibration.",
+ "cells": [
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "log_deff": 1.7539781184897014,
+   "entropy": 2.408236540608887,
+   "rank": 48,
+   "inside": true
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "log_deff": 3.3161056957081114,
+   "entropy": 4.029974354319246,
+   "rank": 160,
+   "inside": true
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "log_deff": 1.770452001848614,
+   "entropy": 2.5024015903736614,
+   "rank": 48,
+   "inside": true
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "log_deff": 2.999540609833065,
+   "entropy": 3.618198129643991,
+   "rank": 64,
+   "inside": true
+  },
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "log_deff": 2.1725359423582518,
+   "entropy": 2.5874566896508346,
+   "rank": 40,
+   "inside": true
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "log_deff": 3.386190633849948,
+   "entropy": 4.175080700044989,
+   "rank": 320,
+   "inside": true
+  },
+  {
+   "id": "dinov3_vitl16/instre/cat",
+   "log_deff": 1.7394200504064115,
+   "entropy": 2.298631123235741,
+   "rank": 24,
+   "inside": false
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "log_deff": 3.003254773697157,
+   "entropy": 3.2666810465468643,
+   "rank": 32,
+   "inside": true
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "log_deff": 4.1366621070089815,
+   "entropy": 4.910994753332809,
+   "rank": 320,
+   "inside": false
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/cat",
+   "log_deff": 2.0621145103613694,
+   "entropy": 2.5241752062375045,
+   "rank": 32,
+   "inside": true
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "log_deff": 3.3092083856086196,
+   "entropy": 3.9712323073826568,
+   "rank": 224,
+   "inside": true
+  },
+  {
+   "id": "siglip2_so400m/inshop/cat",
+   "log_deff": 2.1417595019433215,
+   "entropy": 2.657465602528349,
+   "rank": 40,
+   "inside": true
+  },
+  {
+   "id": "siglip2_so400m/inshop/inst",
+   "log_deff": 3.5382504649193844,
+   "entropy": 4.184690831180138,
+   "rank": 160,
+   "inside": true
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "log_deff": 1.6432170701109285,
+   "entropy": 2.357544371036116,
+   "rank": 40,
+   "inside": false
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "log_deff": 2.979772819202199,
+   "entropy": 3.62651925106457,
+   "rank": 64,
+   "inside": true
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "log_deff": 3.6579073085107585,
+   "entropy": 4.418298459985898,
+   "rank": 192,
+   "inside": true
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "log_deff": 2.190687679170461,
+   "entropy": 2.6667041902394137,
+   "rank": 40,
+   "inside": true
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "log_deff": 3.3749557360211746,
+   "entropy": 3.923280181888154,
+   "rank": 128,
+   "inside": true
+  },
+  {
+   "id": "wemm_2b/sop/inst",
+   "log_deff": 3.5199637934519683,
+   "entropy": 4.192137791124782,
+   "rank": 160,
+   "inside": true
+  }
+ ]
+}

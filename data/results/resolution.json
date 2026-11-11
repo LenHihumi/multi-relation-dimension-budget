@@ -1,0 +1,169 @@
+{
+ "eps": 0.05,
+ "n_cells": 14,
+ "assumed_corr": 0.81,
+ "rows": [
+  {
+   "id": "dinov3_vitl16/inshop/cat",
+   "margin": 0.0005002192959002311,
+   "full_map10": 0.6487215757369995,
+   "band_sd": 0.292854103343465,
+   "se_delta": 0.0064042591155787,
+   "se_boot": 0.010228913697868396,
+   "p_flip_delta": 0.46887135590934653,
+   "measured": true
+  },
+  {
+   "id": "dinov3_vitl16/inshop/inst",
+   "margin": 0.0052458225054244495,
+   "full_map10": 0.1250452995300293,
+   "band_sd": 0.1519756838905775,
+   "se_delta": 0.02321940011480893,
+   "se_boot": null,
+   "p_flip_delta": 0.41063021940881395,
+   "measured": false
+  },
+  {
+   "id": "qwen3vl_emb_8b/inshop/inst",
+   "margin": 0.005789319146746921,
+   "full_map10": 0.38465380668640137,
+   "band_sd": 0.303951367781155,
+   "se_delta": 0.015099842279858448,
+   "se_boot": null,
+   "p_flip_delta": 0.35071062915319495,
+   "measured": false
+  },
+  {
+   "id": "wemm_2b/inshop/inst",
+   "margin": 0.005320847202541626,
+   "full_map10": 0.44217395782470703,
+   "band_sd": 0.303951367781155,
+   "se_delta": 0.013133127791615632,
+   "se_boot": null,
+   "p_flip_delta": 0.3426847336467096,
+   "measured": false
+  },
+  {
+   "id": "siglip2_so400m/sop/inst",
+   "margin": 0.004556561164957243,
+   "full_map10": 0.5409087538719177,
+   "band_sd": 0.303951367781155,
+   "se_delta": 0.010732613320517953,
+   "se_boot": null,
+   "p_flip_delta": 0.3355813492578807,
+   "measured": false
+  },
+  {
+   "id": "clip_vitl14/inshop/inst",
+   "margin": 0.009702801698346433,
+   "full_map10": 0.28280109167099,
+   "band_sd": 0.2786231003039514,
+   "se_delta": 0.018856495282859487,
+   "se_boot": null,
+   "p_flip_delta": 0.30343019679473643,
+   "measured": false
+  },
+  {
+   "id": "dinov3_vitl16/sop/inst",
+   "margin": 0.010302212709640782,
+   "full_map10": 0.43141523003578186,
+   "band_sd": 0.303951367781155,
+   "se_delta": 0.013487769681141851,
+   "se_boot": null,
+   "p_flip_delta": 0.22248760138266366,
+   "measured": false
+  },
+  {
+   "id": "wemm_2b/inshop/cat",
+   "margin": 0.005918401289188482,
+   "full_map10": 0.7008370161056519,
+   "band_sd": 0.2811550151975684,
+   "se_delta": 0.007666365794380976,
+   "se_boot": null,
+   "p_flip_delta": 0.22005849250145815,
+   "measured": false
+  },
+  {
+   "id": "clip_vitl14/instre/inst",
+   "margin": 0.003783704960282644,
+   "full_map10": 0.9478941559791565,
+   "band_sd": 0.1912370820668693,
+   "se_delta": 0.0042579115091297805,
+   "se_boot": 0.005178141633520376,
+   "p_flip_delta": 0.18710116715290193,
+   "measured": true
+  },
+  {
+   "id": "clip_vitl14/instre/cat",
+   "margin": 0.004352246252702877,
+   "full_map10": 0.959360659122467,
+   "band_sd": 0.18112158054711247,
+   "se_delta": 0.0036056083011649716,
+   "se_boot": null,
+   "p_flip_delta": 0.11370127775311056,
+   "measured": false
+  },
+  {
+   "id": "clip_vitl14/inshop/cat",
+   "margin": 0.014371968478939914,
+   "full_map10": 0.6781615614891052,
+   "band_sd": 0.2811793313069909,
+   "se_delta": 0.007950879483249755,
+   "se_boot": null,
+   "p_flip_delta": 0.03533479339246576,
+   "measured": false
+  },
+  {
+   "id": "siglip2_so400m/instre/inst",
+   "margin": 0.008771853137364019,
+   "full_map10": 0.979534387588501,
+   "band_sd": 0.13786322188449848,
+   "se_delta": 0.002692705737014576,
+   "se_boot": null,
+   "p_flip_delta": 0.0005617235302543544,
+   "measured": false
+  },
+  {
+   "id": "dinov3_vitl16/instre/inst",
+   "margin": 0.023235743073637696,
+   "full_map10": 0.892026424407959,
+   "band_sd": 0.2685410334346504,
+   "se_delta": 0.006130514183749161,
+   "se_boot": 0.00728652578837526,
+   "p_flip_delta": 7.526953147124482e-05,
+   "measured": true
+  },
+  {
+   "id": "siglip2_so400m/instre/cat",
+   "margin": 0.016400296979165077,
+   "full_map10": 0.9864959716796875,
+   "band_sd": 0.10975075987841944,
+   "se_delta": 0.0021352516812785777,
+   "se_boot": null,
+   "p_flip_delta": 7.882583474838611e-15,
+   "measured": false
+  }
+ ],
+ "n_p_flip_gt_10": 10,
+ "n_p_flip_gt_25": 6,
+ "n_p_flip_gt_40": 2,
+ "expected_flips": 2.9912288094150155,
+ "expected_coverage": 0.7863407993274988,
+ "calibration": {
+  "dinov3_vitl16/inshop/cat": {
+   "se_delta": 0.0064042591155787,
+   "se_boot": 0.010228913697868396,
+   "ratio": 1.5972048465350224
+  },
+  "clip_vitl14/instre/inst": {
+   "se_delta": 0.0042579115091297805,
+   "se_boot": 0.005178141633520376,
+   "ratio": 1.216122416451691
+  },
+  "dinov3_vitl16/instre/inst": {
+   "se_delta": 0.006130514183749161,
+   "se_boot": 0.00728652578837526,
+   "ratio": 1.1885668265298968
+  }
+ }
+}
